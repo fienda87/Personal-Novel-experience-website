@@ -1,6 +1,5 @@
 import { NextResponse } from 'next/server'
-import fs from 'fs/promises'
-import path from 'path'
+import { supabase } from '@/lib/supabase'
 import { randomUUID } from 'crypto'
 
 const allowedTypes = new Map([
@@ -26,13 +25,17 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: 'Only MP3, WAV, OGG, M4A, and WebM audio are supported' }, { status: 400 })
   }
 
-  const uploadDir = path.join(process.cwd(), 'public', 'uploads', 'audio')
-  await fs.mkdir(uploadDir, { recursive: true })
-
   const fileName = `${Date.now()}-${randomUUID().slice(0, 8)}.${extension}`
-  const filePath = path.join(uploadDir, fileName)
+  const buffer = Buffer.from(await file.arrayBuffer())
 
-  await fs.writeFile(filePath, Buffer.from(await file.arrayBuffer()))
+  const { error } = await supabase.storage.from('audio').upload(fileName, buffer, {
+    contentType: file.type,
+    cacheControl: '3600',
+  })
 
-  return NextResponse.json({ url: `/uploads/audio/${fileName}` }, { status: 201 })
+  if (error) return NextResponse.json({ error: error.message }, { status: 500 })
+
+  const { data: { publicUrl } } = supabase.storage.from('audio').getPublicUrl(fileName)
+
+  return NextResponse.json({ url: publicUrl }, { status: 201 })
 }

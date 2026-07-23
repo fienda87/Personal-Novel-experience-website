@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server'
-import fs from 'fs/promises'
-import path from 'path'
+import { supabase } from '@/lib/supabase'
+import { randomUUID } from 'crypto'
 
 const allowedTypes = new Map([
   ['image/jpeg', 'jpg'],
@@ -21,19 +21,17 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: 'Only JPG, PNG, and WebP images are supported' }, { status: 400 })
   }
 
-  const uploadDir = path.join(process.cwd(), 'public', 'uploads', 'chapter-banners')
-  await fs.mkdir(uploadDir, { recursive: true })
+  const fileName = `${Date.now()}-${randomUUID().slice(0, 8)}.${extension}`
+  const buffer = Buffer.from(await file.arrayBuffer())
 
-  const safeName = file.name
-    .replace(/\.[^/.]+$/, '')
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-+|-+$/g, '')
-    .slice(0, 48) || 'chapter-banner'
-  const fileName = `${Date.now()}-${safeName}.${extension}`
-  const filePath = path.join(uploadDir, fileName)
+  const { error } = await supabase.storage.from('chapter-banners').upload(fileName, buffer, {
+    contentType: file.type,
+    cacheControl: '3600',
+  })
 
-  await fs.writeFile(filePath, Buffer.from(await file.arrayBuffer()))
+  if (error) return NextResponse.json({ error: error.message }, { status: 500 })
 
-  return NextResponse.json({ url: `/uploads/chapter-banners/${fileName}` }, { status: 201 })
+  const { data: { publicUrl } } = supabase.storage.from('chapter-banners').getPublicUrl(fileName)
+
+  return NextResponse.json({ url: publicUrl }, { status: 201 })
 }

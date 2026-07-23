@@ -1,52 +1,30 @@
 import { NextResponse } from 'next/server'
-import fs from 'fs'
-import path from 'path'
-
-const dataFile = path.join(process.cwd(), 'data', 'gallery.json')
-
-interface GalleryItem {
-  id: string
-  url: string
-  caption: string
-  alt: string
-  tags: string[]
-  createdAt: string
-}
-
-function readData(): GalleryItem[] {
-  if (!fs.existsSync(dataFile)) return []
-  return JSON.parse(fs.readFileSync(dataFile, 'utf-8'))
-}
-
-function writeData(data: GalleryItem[]) {
-  fs.writeFileSync(dataFile, JSON.stringify(data, null, 2))
-}
+import { supabase } from '@/lib/supabase'
 
 export async function GET() {
-  return NextResponse.json(readData())
+  const { data } = await supabase.from('gallery').select('*')
+  return NextResponse.json(data ?? [])
 }
 
 export async function POST(request: Request) {
   const body = await request.json()
-  const data = readData()
-  const item: GalleryItem = {
+  const { data, error } = await supabase.from('gallery').insert({
     id: Date.now().toString(),
-    url: body.url,
-    caption: body.caption || '',
-    alt: body.alt || '',
-    tags: body.tags || [],
-    createdAt: new Date().toISOString(),
-  }
-  data.push(item)
-  writeData(data)
-  return NextResponse.json(item, { status: 201 })
+    character_id: body.character_id ?? '',
+    image_url: body.image_url ?? body.url ?? '',
+    label: body.label ?? body.caption ?? '',
+  }).select().single()
+
+  if (error) return NextResponse.json({ error: error.message }, { status: 500 })
+  return NextResponse.json(data, { status: 201 })
 }
 
 export async function DELETE(request: Request) {
   const { searchParams } = new URL(request.url)
   const id = searchParams.get('id')
   if (!id) return NextResponse.json({ error: 'Missing id' }, { status: 400 })
-  const data = readData()
-  writeData(data.filter((item) => item.id !== id))
+
+  const { error } = await supabase.from('gallery').delete().eq('id', id)
+  if (error) return NextResponse.json({ error: error.message }, { status: 500 })
   return NextResponse.json({ success: true })
 }

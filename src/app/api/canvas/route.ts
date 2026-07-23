@@ -1,59 +1,55 @@
 import { NextResponse } from 'next/server'
-import fs from 'fs'
-import path from 'path'
-
-const canvasFile = path.join(process.cwd(), 'data', 'canvas.json')
-const entitiesFile = path.join(process.cwd(), 'data', 'entities.json')
-
-function readFile(file: string) {
-  if (!fs.existsSync(file)) return null
-  return JSON.parse(fs.readFileSync(file, 'utf-8'))
-}
+import { supabase } from '@/lib/supabase'
 
 export async function GET() {
-  return NextResponse.json(readFile(canvasFile) ?? { nodes: [], edges: [] })
+  const { data } = await supabase.from('canvas').select('*').single()
+  return NextResponse.json(data ?? { nodes: [], edges: [] })
 }
 
 export async function POST(request: Request) {
   const body = await request.json()
-  fs.writeFileSync(canvasFile, JSON.stringify(body, null, 2))
 
-  // Sync canvas nodes → entities.json
-  const existingEntities: Record<string, unknown> = readFile(entitiesFile) ?? {}
+  const { error } = await supabase.from('canvas').upsert({
+    id: 'canvas-v1',
+    nodes: JSON.stringify(body.nodes ?? []),
+    edges: JSON.stringify(body.edges ?? []),
+  })
 
+  if (error) return NextResponse.json({ error: error.message }, { status: 500 })
+
+  // Sync canvas nodes → entities
   for (const node of (body.nodes ?? []) as { id: string; data: Record<string, unknown> }[]) {
     const d = node.data
-    const existing = existingEntities[node.id] as Record<string, unknown> | undefined
+
+    const { data: existing } = await supabase.from('entities').select('*').eq('id', node.id).maybeSingle()
 
     const entity: Record<string, unknown> = {
       id: node.id,
       name: d.label,
       type: d.type,
-      imageUrl: d.imageUrl || '',
-      snippet: d.snippet || (existing?.snippet as string) || '',
-      tags: d.tags || (existing?.tags as string[]) || [],
+      image_url: (d.imageUrl as string) || '',
+      snippet: (d.snippet as string) || ((existing as Record<string, unknown>)?.snippet as string) || '',
+      tags: JSON.stringify(d.tags || (existing as Record<string, unknown>)?.tags || []),
     }
 
     if (d.type === 'character') {
-      entity.strength = d.strength ?? (existing?.strength ?? 10)
-      entity.agility = d.agility ?? (existing?.agility ?? 10)
-      entity.intelligence = d.intelligence ?? (existing?.intelligence ?? 10)
-      entity.charisma = d.charisma ?? (existing?.charisma ?? 10)
-      entity.wisdom = d.wisdom ?? (existing?.wisdom ?? 10)
-      entity.vitality = d.vitality ?? (existing?.vitality ?? 10)
+      entity.strength = d.strength ?? (existing as Record<string, unknown>)?.strength ?? 10
+      entity.agility = d.agility ?? (existing as Record<string, unknown>)?.agility ?? 10
+      entity.intelligence = d.intelligence ?? (existing as Record<string, unknown>)?.intelligence ?? 10
+      entity.charisma = d.charisma ?? (existing as Record<string, unknown>)?.charisma ?? 10
+      entity.wisdom = d.wisdom ?? (existing as Record<string, unknown>)?.wisdom ?? 10
+      entity.vitality = d.vitality ?? (existing as Record<string, unknown>)?.vitality ?? 10
     }
     if (d.type === 'location') {
-      entity.faction = d.faction ?? (existing?.faction as string) ?? ''
-      entity.city = d.city ?? (existing?.city as string) ?? ''
+      entity.faction = d.faction ?? (existing as Record<string, unknown>)?.faction ?? ''
+      entity.city = d.city ?? (existing as Record<string, unknown>)?.city ?? ''
     }
     if (d.type === 'item') {
-      entity.rarity = d.rarity ?? (existing?.rarity as string) ?? ''
+      entity.rarity = d.rarity ?? (existing as Record<string, unknown>)?.rarity ?? ''
     }
 
-    existingEntities[node.id] = entity
+    await supabase.from('entities').upsert(entity)
   }
-
-  fs.writeFileSync(entitiesFile, JSON.stringify(existingEntities, null, 2))
 
   return NextResponse.json({ ok: true })
 }
