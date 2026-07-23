@@ -194,7 +194,7 @@ export default function WriterPage() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 0.1 }}
       >
-        <GlassCard glow="none" hover={false} className="glass-panel-strong overflow-hidden rounded-3xl p-0 mercury-border">
+        <GlassCard hover={false} className="glass-panel-strong overflow-hidden rounded-3xl p-0 mercury-border">
           <div className="grid gap-4 border-b border-white/10 p-4 md:grid-cols-[minmax(0,1fr)_260px]">
             <div className="space-y-4">
               <div className="flex items-start gap-4">

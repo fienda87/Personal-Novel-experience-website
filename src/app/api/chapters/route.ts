@@ -1,6 +1,13 @@
 import { NextResponse } from 'next/server'
 import { supabase } from '@/lib/supabase'
 
+function parseChapter(ch: Record<string, unknown>) {
+  if (typeof ch.content === 'string') {
+    try { ch.content = JSON.parse(ch.content) } catch { ch.content = [] }
+  }
+  return ch
+}
+
 export async function GET(request: Request) {
   const { searchParams } = new URL(request.url)
   const id = searchParams.get('id')
@@ -8,11 +15,11 @@ export async function GET(request: Request) {
   if (id) {
     const { data, error } = await supabase.from('chapters').select('*').eq('id', id).single()
     if (error || !data) return NextResponse.json({ error: 'Not found' }, { status: 404 })
-    return NextResponse.json(data)
+    return NextResponse.json(parseChapter(data as Record<string, unknown>))
   }
 
   const { data } = await supabase.from('chapters').select('*')
-  return NextResponse.json(data ?? [])
+  return NextResponse.json((data ?? []).map((ch: Record<string, unknown>) => parseChapter(ch)))
 }
 
 export async function POST(request: Request) {

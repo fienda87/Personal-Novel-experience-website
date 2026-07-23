@@ -24,7 +24,7 @@ async function seed() {
     const { error } = await supabase.from('chapters').upsert({
       ...rest,
       banner_url: bannerUrl || '',
-      content: JSON.stringify(content),
+      content: typeof content === 'string' ? JSON.parse(content) : content,
     }, { onConflict: 'id' })
     if (error) console.error('Chapter error:', rest.id, error.message)
     else console.log('✓ Chapter:', rest.id)

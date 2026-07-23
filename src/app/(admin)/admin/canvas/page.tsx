@@ -840,7 +840,7 @@ function EdgeInspectorContent({
         <div className="p-3 rounded-xl bg-white/5 ring-1 ring-white/10">
           <label className="font-mono text-[9px] text-on-surface-variant block mb-1 uppercase tracking-wider">Label</label>
           <input
-            value={edge.label ?? ''}
+            value={String(edge.label ?? '')}
             onChange={(e) => onUpdate('label', e.target.value)}
             className="w-full bg-transparent text-sm font-medium text-on-surface outline-none"
             placeholder="e.g. Wields, Dwells in"
