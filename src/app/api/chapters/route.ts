@@ -1,11 +1,16 @@
 import { NextResponse } from 'next/server'
 import { supabase } from '@/lib/supabase'
 
-function parseChapter(ch: Record<string, unknown>) {
-  if (typeof ch.content === 'string') {
-    try { ch.content = JSON.parse(ch.content) } catch { ch.content = [] }
+function parseChapter(raw: Record<string, unknown>) {
+  return {
+    id: raw.id,
+    title: raw.title,
+    number: raw.number,
+    bannerUrl: raw.banner_url as string ?? '',
+    content: typeof raw.content === 'string' ? JSON.parse(raw.content as string) : (raw.content ?? []),
+    createdAt: raw.createdAt as string ?? raw.created_at as string ?? '',
+    updatedAt: raw.updatedAt as string ?? raw.updated_at as string ?? '',
   }
-  return ch
 }
 
 export async function GET(request: Request) {
@@ -35,7 +40,7 @@ export async function POST(request: Request) {
   }).select().single()
 
   if (error) return NextResponse.json({ error: error.message }, { status: 500 })
-  return NextResponse.json(data, { status: 201 })
+  return NextResponse.json(parseChapter(data as Record<string, unknown>), { status: 201 })
 }
 
 export async function PUT(request: Request) {
@@ -55,7 +60,7 @@ export async function PUT(request: Request) {
   }).select().single()
 
   if (error) return NextResponse.json({ error: error.message }, { status: 500 })
-  return NextResponse.json(data)
+  return NextResponse.json(parseChapter(data as Record<string, unknown>))
 }
 
 export async function DELETE(request: Request) {
