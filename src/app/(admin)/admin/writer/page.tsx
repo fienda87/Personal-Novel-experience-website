@@ -6,6 +6,7 @@ import { motion } from 'framer-motion'
 import { RichTextEditor } from '@/components/editor/rich-text-editor'
 import { GlassCard } from '@/components/ui/glass-card'
 import { GlassButton } from '@/components/ui/glass-button'
+import { ImageCropperModal } from '@/components/ui/image-cropper-modal'
 import { DEFAULT_CHAPTER_BANNER_URL } from '@/lib/chapter-banner'
 import { paragraphsFromEditorHtml } from '@/lib/chapter-content'
 import { FloppyDisk, Eye, Sparkle, UploadSimple, LinkSimple, X } from '@phosphor-icons/react'
@@ -25,6 +26,8 @@ export default function WriterPage() {
   const [chapterNumber, setChapterNumber] = useState(1)
   const [createdAt, setCreatedAt] = useState('')
   const [saved, setSaved] = useState(false)
+  const [pendingCropFile, setPendingCropFile] = useState<File | null>(null)
+  const [pendingCropUrl, setPendingCropUrl] = useState('')
 
   useEffect(() => {
     if (!bannerFile) {
@@ -39,6 +42,14 @@ export default function WriterPage() {
 
   useEffect(() => {
     if (!editingId) {
+      fetch('/api/chapters')
+        .then((r) => r.json())
+        .then((list) => {
+          const arr = Array.isArray(list) ? list : Object.values(list)
+          const max = (arr as Chapter[]).reduce((m, ch) => Math.max(m, ch.number), 0)
+          setChapterNumber(max + 1)
+        })
+        .catch(() => {})
       setIsLoading(false)
       return
     }
@@ -73,7 +84,23 @@ export default function WriterPage() {
 
   const selectBannerFile = (file?: File) => {
     if (!file || !file.type.startsWith('image/')) return
-    setBannerFile(file)
+    setPendingCropFile(file)
+    const objectUrl = URL.createObjectURL(file)
+    setPendingCropUrl(objectUrl)
+  }
+
+  const handleCropComplete = (blob: Blob, fileName: string) => {
+    const croppedFile = new File([blob], fileName, { type: 'image/jpeg' })
+    setBannerFile(croppedFile)
+    setPendingCropFile(null)
+    URL.revokeObjectURL(pendingCropUrl)
+    setPendingCropUrl('')
+  }
+
+  const handleCancelCrop = () => {
+    setPendingCropFile(null)
+    URL.revokeObjectURL(pendingCropUrl)
+    setPendingCropUrl('')
   }
 
   const uploadBannerFile = async () => {
@@ -170,18 +197,32 @@ export default function WriterPage() {
         <GlassCard glow="none" hover={false} className="glass-panel-strong overflow-hidden rounded-3xl p-0 mercury-border">
           <div className="grid gap-4 border-b border-white/10 p-4 md:grid-cols-[minmax(0,1fr)_260px]">
             <div className="space-y-4">
-              <label className="block">
-                <span className="mb-2 block font-mono text-[9px] uppercase tracking-[0.2em] text-white/35">
-                  Chapter Title
-                </span>
-                <input
-                  type="text"
-                  value={title}
-                  onChange={(e) => setTitle(e.target.value)}
-                  placeholder="Chapter Title..."
-                  className="w-full bg-transparent font-display text-2xl text-on-surface placeholder:text-on-surface-variant outline-none"
-                />
-              </label>
+              <div className="flex items-start gap-4">
+                <label className="block flex-1 min-w-0">
+                  <span className="mb-2 block font-mono text-[9px] uppercase tracking-[0.2em] text-white/35">
+                    Chapter Title
+                  </span>
+                  <input
+                    type="text"
+                    value={title}
+                    onChange={(e) => setTitle(e.target.value)}
+                    placeholder="Chapter Title..."
+                    className="w-full bg-transparent font-display text-2xl text-on-surface placeholder:text-on-surface-variant outline-none"
+                  />
+                </label>
+                <label className="block w-24 shrink-0">
+                  <span className="mb-2 block font-mono text-[9px] uppercase tracking-[0.2em] text-white/35">
+                    No.
+                  </span>
+                  <input
+                    type="number"
+                    min={1}
+                    value={chapterNumber}
+                    onChange={(e) => setChapterNumber(Math.max(1, parseInt(e.target.value) || 1))}
+                    className="w-full bg-slate-800/60 border border-white/10 rounded-xl px-3 py-2 text-center font-mono text-lg text-on-surface outline-none focus:border-moonstone-blue/40 transition"
+                  />
+                </label>
+              </div>
 
               <div className="bg-slate-900/40 backdrop-blur-md border border-white/10 rounded-2xl p-4 text-slate-200">
                 <div className="mb-3 flex items-center justify-between gap-3">
@@ -284,6 +325,14 @@ export default function WriterPage() {
           <li>• Use the toolbar to format text, add headings, lists, and quotes</li>
         </ul>
       </motion.div>
+
+      <ImageCropperModal
+        open={Boolean(pendingCropFile)}
+        imageSrc={pendingCropUrl}
+        fileName={pendingCropFile?.name || 'banner.jpg'}
+        onCrop={handleCropComplete}
+        onCancel={handleCancelCrop}
+      />
     </div>
   )
 }

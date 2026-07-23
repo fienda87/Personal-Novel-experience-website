@@ -3,169 +3,2424 @@
     "id": "ch-1",
     "title": "Awal Mula",
     "number": 1,
-    "bannerUrl": "",
+    "bannerUrl": "/uploads/chapter-banners/1784812929882-whatsapp-image-2026-07-23-at-21-15-09.jpg",
     "content": [
       {
         "id": "p1",
-        "text": "Baydar membuka matanya dan mendapati dirinya terbaring di tengah sebuah kampus yang asing. Langit di atasnya berwarna ungu keemasan, dan gedung-gedung di sekitarnya tampak seperti perpaduan antara arsitektur modern dan teknologi masa depan. \"Di mana aku?\" gumamnya, mencoba mengingat apa yang baru saja terjadi."
-      },
-      {
-        "id": "p2",
-        "text": "Sejenak yang lalu, ia masih berada di kamar kosnya yang sempit. Sebuah portal aneh muncul tiba-tiba di dinding kamarnya, dan sebelum ia bisa berteriak, tubuhnya tersedot ke dalam pusaran cahaya. Kini, ia berada di tempat yang sama sekali tidak dikenal."
-      },
-      {
-        "id": "p3",
-        "text": "Seorang mahasiswa lewat dan menatapnya heran. \"Lu anak baru? Kelas orientasi udah mulai dari tadi, tuh. Cepetan!\" Baydar, yang masih bingung, hanya bisa mengangguk dan mengikuti arahan itu. Tanpa sadar, petualangan besarnya baru saja dimulai."
-      }
-    ],
-    "createdAt": "2026-07-23T00:00:00.000Z",
-    "updatedAt": "2026-07-23T00:00:00.000Z"
-  },
-  "ch-2": {
-    "id": "ch-2",
-    "title": "Hidup & Mati",
-    "number": 2,
-    "bannerUrl": "",
-    "content": [
-      {
-        "id": "p1",
-        "text": "<span class=\"mention\" data-type=\"mention\" data-id=\"char-1\" data-label=\"Baydar\" data-mention-suggestion-char=\"@\" data-entity-type=\"character\">@Baydar</span> Baydar segera menyadari bahwa ITK bukanlah kampus biasa. Di sini, hidup dan mati adalah taruhan sehari-hari. Mahasiswa tidak hanya belajar teori, tetapi juga bertarung melawan monster yang muncul dari celah dimensi di sekitar kampus.",
+        "text": "Di masa kecilnya dulu, <span class=\"mention\" data-type=\"mention\" data-id=\"char-1\" data-label=\"Baydar\" data-mention-suggestion-char=\"@\" data-entity-type=\"character\">@Baydar</span> adalah sosok legendaris—seorang \"Raja Harem\" tidak tertandingi di PAUD tempatnya bermain. Namun, sebuah insiden konyol terjadi saat ia sedang meluncur di perosotan taman kanak-kanak. Sebuah distorsi ruang dan waktu menariknya masuk ke dalam portal misterius, melemparnya ke timeline lain.",
         "mentions": [
           {
             "entityId": "char-1",
             "entityName": "Baydar",
             "entityType": "character",
-            "startIndex": 0,
-            "endIndex": 7
+            "startIndex": 23,
+            "endIndex": 30
           }
         ]
       },
       {
         "id": "p2",
-        "text": "\"Selamat datang di ITK, anak baru,\" sapa seorang mahasiswi bernama Anisa. \"Di sini, ilmu pengetahuan dan kekuatan berjalan beriringan. Jika kau tidak bisa bertahan, kau akan mati.\" Baydar menelan ludah. Ia tidak punya pengalaman bertarung sama sekali."
+        "text": "Di dunia yang baru ini, Baydar terbangun sebagai mahasiswa jurusan Informatika di ITK (Institut Teknologi Kalimantan). Bersamaan dengan perpindahan dimensi tersebut, sebuah notifikasi sistem berwarna biru transparan tiba-tiba muncul mengambang tepat di depan matanya:"
       },
       {
         "id": "p3",
-        "text": "Namun, saat monster pertama muncul dan menyerangnya, sesuatu terjadi. Tubuh Baydar bergerak dengan sendirinya, seolah-olah ototnya telah terlatih selama bertahun-tahun. Sebuah kekuatan aneh mengalir di nadinya — dan untuk pertama kalinya, ia merasakan bahwa ia berbeda."
+        "text": "Kehadiran sistem tersebut membangkitkan kembali ingatan dan ambisi terpendamnya. Baydar sadar bahwa di dunia ini, ia harus kembali menguasai hirarki PAUD dan menjadi predator top nomor satu di dunia. Namun, jalannya tidak akan mudah. Untuk mencapai impian gilanya itu, ia harus berhadapan dengan Organisasi PAUD Dunia—sebuah konspirasi gelap yang diisi oleh para predator tingkat atas dari berbagai belahan bumi."
+      },
+      {
+        "id": "p4",
+        "text": "Suatu hari, suasana kampus ITK tampak seperti biasa. Baydar berjalan menuju ATM yang terletak di Gedung A untuk mengambil uang tunai. Saat sedang melangkah santai, dari arah berlawanan seorang gadis berjalan terburu-buru sambil membawa tumpukan berkas."
+      },
+      {
+        "id": "p5",
+        "text": "BRUKK!"
+      },
+      {
+        "id": "p6",
+        "text": "Keduanya bertabrakan di depan lorong Gedung A. Berkas-berkas sang gadis berserakan di atas lantai."
+      },
+      {
+        "id": "p7",
+        "text": "\"Aduh... maaf, maaf banget! Aku nggak sengaja!\" panggil gadis itu panik."
+      },
+      {
+        "id": "p8",
+        "text": "Baydar tidak menjawab. Dengan tenang, ia berjongkok dan membantu mengumpulkan lembaran kertas yang berserakan. Saat mengembalikan tumpukan berkas tersebut, mengibarlah rambut Baydar yang begitu halus, berkilau, dan bersinar bagaikan bintang di iklan shampo Pantene."
+      },
+      {
+        "id": "p9",
+        "text": "Gadis di hadapannya terpana seketika. Tatapannya terkunci pada pesona rambut bersinar milik Baydar."
+      },
+      {
+        "id": "p10",
+        "text": "\"I-ini barang-barangmu,\" kata Baydar datar."
+      },
+      {
+        "id": "p11",
+        "text": "\"A-ah... iya, terima kasih banyak!\" Gadis itu merapikan rambut pendek bondolnya yang memiliki panjang se-pundak. Tubuhnya yang mungil—sekitar 155 cm —membuatnya terlihat sangat menggemaskan. \"Namaku <span class=\"mention\" data-type=\"mention\" data-id=\"char-2\" data-label=\"Anisa\" data-mention-suggestion-char=\"@\" data-entity-type=\"character\">@Anisa</span> , aku mahasiswi dari jurusan Kelautan. Kalau kamu... siapa namamu?\"",
+        "mentions": [
+          {
+            "entityId": "char-2",
+            "entityName": "Anisa",
+            "entityType": "character",
+            "startIndex": 199,
+            "endIndex": 205
+          }
+        ]
+      },
+      {
+        "id": "p12",
+        "text": "\"Aku Baydar,\" jawabnya singkat."
+      },
+      {
+        "id": "p13",
+        "text": "Namun, sebelum percakapan mereka berlanjut lebih jauh, atmosfer di sekitar Gedung A tiba-tiba berubah mencekam. Suhu udara merosot tajam, dan tanah yang mereka pijak berguncang hebat."
+      },
+      {
+        "id": "p14",
+        "text": "BZZZZT! BANG!"
+      },
+      {
+        "id": "p15",
+        "text": "Di dekat kantor rektor, langit-langit koridor retak dan memunculkan sebuah portal hitam pekat berukuran raksasa. Aura membunuh yang sangat pekat berhembus keluar dari portal tersebut, membuat beberapa mahasiswa di sekitar langsung lemas tak berdaya. Dari balik kegelapan portal, muncul sesosok makhluk bertanduk dengan mata menyala merah, membawa ancaman besar yang ingin menaklukkan dunia."
+      },
+      {
+        "id": "p16",
+        "text": "Anisa gemetaran hebat, wajahnya pucat pasi melihat ancaman yang belum pernah ia saksikan sebelumnya."
+      },
+      {
+        "id": "p17",
+        "text": "Akankah Baydar mampu menghadapi situasi berbahaya ini dan melindungi area kampus ITK?"
       }
     ],
     "createdAt": "2026-07-23T00:00:00.000Z",
-    "updatedAt": "2026-07-23T12:53:12.305Z"
+    "updatedAt": "2026-07-23T13:22:09.937Z"
+  },
+  "ch-2": {
+    "id": "ch-2",
+    "title": "Hidup & Mati",
+    "number": 2,
+    "bannerUrl": "/uploads/chapter-banners/1784813605084-whatsapp-image-2026-07-23-at-21-15-13-cropped.jpg",
+    "content": [
+      {
+        "id": "p1",
+        "text": "Portal gelap di depan kantor rektor membesar, memuntahkan aura membunuh yang begitu pekat hingga membuat udara di sekitarnya terasa sesak dan berat. Suasana koridor Gedung A ITK mendadak mencekam."
+      },
+      {
+        "id": "p2",
+        "text": "Anisa yang berada di samping Baydar langsung gemetaran hebat. Kakinya lemas, matanya membelalak menatap pusaran hitam yang mengerikan itu."
+      },
+      {
+        "id": "p3",
+        "text": "\"B-Baydar... makhluk apa itu? Kita harus lari!\" jerit Anisa panik."
+      },
+      {
+        "id": "p4",
+        "text": "\"Berdirilah di belakangku,\" ucap Baydar tenang namun dingin. Ia menarik tangan Anisa dan menempatkan gadis mungil itu di belakang punggungnya. Sebagai sosok yang pernah menjadi raja harem di masa lalu, insting bertahannya sangat tajam. Ia tahu bahaya yang ada di depannya bukan main-main."
+      },
+      {
+        "id": "p5",
+        "text": "SRRRK!"
+      },
+      {
+        "id": "p6",
+        "text": "Langkah kaki berat berbunyi dari dalam portal. Sosok berkecepatan tinggi dengan tubuh hitam pekat dan aura membara melangkah keluar. Makhluk itu adalah A-Gift, The Lord of Topup—Raja Iblis ke-66 dari alam kegelapan."
+      },
+      {
+        "id": "p7",
+        "text": "\"Fufufu... tempat apa ini? Lembaga pendidikan?\" A-Gift mengedarkan pandangan dengan nada bosan. \"Siapa yang terkuat di sini? Cepat maju dan hibur aku, sebelum aku meratakan tempat ini!\""
+      },
+      {
+        "id": "p8",
+        "text": "Tanpa membuang waktu, Baydar melompat maju! Ia melayangkan pukulan mentah ke arah wajah A-Gift dengan segenap tenaga."
+      },
+      {
+        "id": "p9",
+        "text": "TAKK!"
+      },
+      {
+        "id": "p10",
+        "text": "Namun, pukulan itu bahkan tidak membuat A-Gift bergeming sejengkal pun. Kulit sang Raja Iblis terlalu keras bagaikan baja berlapis intan."
+      },
+      {
+        "id": "p11",
+        "text": "\"Hanya segini?\" ejek A-Gift. Dengan raut wajah meremehkan, ia hanya mengangkat satu jarinya dan menyentil dahi Baydar."
+      },
+      {
+        "id": "p12",
+        "text": "BOOM!"
+      },
+      {
+        "id": "p13",
+        "text": "Daya dorong sentilan itu begitu dahsyat! Tubuh Baydar terlempar melintasi koridor, menembus kaca jendela, dan menghantam lantai beton parkiran bawah Gedung A dengan dentuman keras. Debu dan reruntuhan batu membumbung tinggi."
+      },
+      {
+        "id": "p14",
+        "text": "\"Baydar!!!\" teriak Anisa histeris. Air matanya mulai menetes saat melihat Baydar tak bergerak di tengah reruntuhan."
+      },
+      {
+        "id": "p15",
+        "text": "A-Gift berjalan santai mendekati Anisa yang terduduk ketakutan di lantai. \"Bocah tadi sangat lemah. Sekarang, giliranmu—\""
+      },
+      {
+        "id": "p16",
+        "text": "BZZZZZZT!"
+      },
+      {
+        "id": "p17",
+        "text": "Belum sempat A-Gift menyelesaikannya, sebuah kilatan cahaya emas menembus area parkiran bawah dan mendarat presisi di depan Anisa! Baydar berdiri tegak, menangkis pukulan A-Gift yang mengarah ke Anisa hanya menggunakan lengan telanjangnya."
+      },
+      {
+        "id": "p18",
+        "text": "A-Gift terbelalak kaget. \"Apa?! Bagaimana bisa bocah manusia sepertimu bertahan dari seranganku... dan mendadak jadi sekuat ini?!\""
+      },
+      {
+        "id": "p19",
+        "text": "Di dalam pandangan Baydar, sebuah layar sistem bening berkedip-kedip cepat:"
+      },
+      {
+        "id": "p20",
+        "text": "\"Rupanya ini rahasiamu...\" gumam Baydar."
+      },
+      {
+        "id": "p21",
+        "text": "Baydar merentangkan tangannya ke udara. Cahaya keemasan menyambar, dan dari langit-langit berhembus instrumen magis yang memunculkan sebuah Gitar Suci Kayangan ke genggamannya. Aura petir menyambar-nyambar di sekeliling senar gitar tersebut."
+      },
+      {
+        "id": "p22",
+        "text": "A-Gift yang merasa terancam langsung menerjang dengan seluruh kekuatan topup-nya. \"Jangan sombong, Manusia!\""
+      },
+      {
+        "id": "p23",
+        "text": "Baydar memetik senar gitarnya dengan keras, menciptakan gelombang getaran frekuensi tinggi yang membelah udara."
+      },
+      {
+        "id": "p24",
+        "text": "\"Skill Aktif: Melodi Etam!\" teriak Baydar."
+      },
+      {
+        "id": "p25",
+        "text": "ANGGG! BZZZZZZT—BANGGG!"
+      },
+      {
+        "id": "p26",
+        "text": "Suara petikan gitar melahirkan petir raksasa berwarna biru-keemasan. Sambaran petir itu meraung dan menghantam tubuh A-Gift secara telak!"
+      },
+      {
+        "id": "p27",
+        "text": "\"TIDAK MUNGKINNN—!\" teriakan A-Gift lenyap tertutup dentuman petir. Tubuh Raja Iblis ke-66 itu hancur menjadi abu, menyisakan asap tipis yang membumbung di udara."
+      },
+      {
+        "id": "p28",
+        "text": "Portal gelap di kantor rektor perlahan menyusut dan menghilang. Suasana ITK kembali hening. Anisa terduduk terpana, menatap Baydar yang berdiri gagah dengan gitar suci di tanganny"
+      }
+    ],
+    "createdAt": "2026-07-23T00:00:00.000Z",
+    "updatedAt": "2026-07-23T13:37:31.011Z"
   },
   "ch-3": {
     "id": "ch-3",
     "title": "Kebangkitan Skill SSS+",
     "number": 3,
-    "bannerUrl": "",
+    "bannerUrl": "/uploads/chapter-banners/1784814012198-philipp-a-urlich-cpncept220-cropped.jpg",
     "content": [
       {
         "id": "p1",
-        "text": "Setelah pertarungan pertamanya, Baydar jatuh pingsan. Saat sadar, ia mendapati dirinya di ruang medis kampus. Di hadapannya, sebuah layar holografik menampilkan sesuatu yang membuat matanya melebar: status skill-nya."
+        "text": "Setelah mengalahkan raja iblis ke 66 A-Gift, muncul sebuah notifikasi \"selamat telah mengalahkan iblis yang kuat\" anda mendapatkan gelar \"Demon Slayer\""
       },
       {
         "id": "p2",
-        "text": "\"SSS+ Skill: Loli Hunter — Status: Active,\" bunyi tulisan di layar itu. Anisa yang berada di sampingnya terkejut. \"Skill tingkat SSS+? Itu legenda! Bahkan para pengajar di sini tidak ada yang memilikinya!\" serunya tidak percaya."
+        "text": "\"Anda telah naik level\" *, \"anda mendapatkan Skill baru\",  baydar yg kelelahan akibat pertarungan itu pun tiba tiba tumbang tak sadarkan diri. Ketika ia membuka matanya ia berada diatas kasur di sebuah kamar  tetapi itu bukanlah kosnya tiba2 terdengar suara perempuan berkata \"syukurlah kupikir kau tidak apa apa\" rupanya itu adalah anisa yang telah merawat baydar dikosnya, anisa berterima kasih kepada baydar karena telah menyelamatkan hidupnya."
       },
       {
         "id": "p3",
-        "text": "Baydar sendiri tidak mengerti apa artinya semua ini. Yang ia tahu, tubuhnya terasa berbeda. Lebih kuat, lebih cepat, lebih gesit. Sebuah keyakinan mulai tumbuh di hatinya: mungkin ia tidak sengaja terlempar ke sini. Mungkin takdir telah membawanya ke ITK untuk suatu tujuan."
+        "text": "<br>"
+      },
+      {
+        "id": "p4",
+        "text": "Maaf kita mungkin baru bertemu dan belum terlalu mengenal satu sama lain, namaku anisa aku dari jurusan kelautan, salam kenal kemudian Baydar juga memperkenalkan dirinya , Dari sudut pandang orang orang mungkin berkata anisa adalah gadis yang cantik tetapi baydar yang merupakan lolicon garis keras menganggapnya biasa saja. anisa merupakan cewe pantene berparas cantik bertubuh mungil mungkin sekitar 155 cm, penampilannya ia memiliki rambut shot hair bondol sepundak dan mengenakan pdh navy itk.\"Oh Jadi kamu dari jurusan Informatika kudengar jurusan tersebut berisi orang2 aneh\" ,anisa bertanya. \"Memang sih banyak orang yang unik dijurusan ku (walaupun aku sendiri juga punya ketertarikan pada anak kecil)\" ucap baydar didalam hatinya. \"tetapi menurutku kamu tidak aneh kok\" sambil wajah anisa sedikit memerah."
+      },
+      {
+        "id": "p5",
+        "text": "<br>"
+      },
+      {
+        "id": "p6",
+        "text": "Setelah kejadian itu ketika di kampus baydar sering berjumpa atau didatangi oleh anisa, terkadang juga diberikan hadiah dan setiap kali baydar bertanya untuk apa anisa selalu menjawab enggak papa kemudian langsung pergi. Suatu hari dikosnya Baydar JK - A206 ketika ia ingin keluar makan dirahmad ia terkaget karena bertemu anisa dilorong, rupanya anisa baru saja pindah kos dan kebetulan menyewa di A205 tepat disebelah kamar baydar. Baydar kemudian membantu anisa untuk mengangkat barang2 dan membereskan kamar anisa, Setelah lelah mereka kemudian memutuskan untuk makan disalwa. Hari perhari mereka semakin dekat tetapi baydar merasa itu biasa saja karena jujur saja anisa bukan lah tipenya jadi ia hanya merasa sebatas teman saja."
+      },
+      {
+        "id": "p7",
+        "text": "<br>"
+      },
+      {
+        "id": "p8",
+        "text": "Tipe wanita idaman baydar ialah anak kecil (maximal sd kelas 6) yang imut dan suka animek juga suka bermain game,menurutnya anak kecil adalah yang terbaik karena mengingatkannya saat menjadi dewa paud dulu dan juga mudah dimanipulasi. Itu mengingatkannya pada tujuan hidupnya untuk menjadi top 1 Pedo didunia dan menjadi dewa pedo agar bisa memiliki seluruh anak kecil didunia. Baydar kini memiliki rencana yg matang agar berjalan sukses, baiklah langkah pertama ialah..."
+      },
+      {
+        "id": "p9",
+        "text": "<br>"
       }
     ],
     "createdAt": "2026-07-23T00:00:00.000Z",
-    "updatedAt": "2026-07-23T00:00:00.000Z"
+    "updatedAt": "2026-07-23T13:40:12.383Z"
   },
   "ch-4": {
     "id": "ch-4",
-    "title": "Langkah Pertama di ITK",
+    "title": "Benih Pertama di ITK",
     "number": 4,
     "bannerUrl": "",
     "content": [
       {
         "id": "p1",
-        "text": "Hari-hari pertama Baydar di ITK diisi dengan adaptasi. Ia belajar tentang sistem skill, class, dan hierarchy kekuatan yang ada di dunia ini. Setiap mahasiswa memiliki skill unik, dan peringkat mereka ditentukan oleh seberapa kuat skill tersebut."
+        "text": "Beberapa bulan berlalu sejak Anisa resmi menjadi tetangga kamar kos Baydar di kos JK. Kehadiran Anisa yang ramah dan penuh perhatian perlahan-lahan membuat suasana hari-hari Baydar di kampus ITK menjadi lebih berwarna."
       },
       {
         "id": "p2",
-        "text": "Rifki, sahabat baru Baydar, membantunya berkeliling kampus. \"Lu beruntung punya skill SSS+, bro. Tapi ingat, kekuatan aja nggak cukup. Lu harus latihan keras dan paham cara menggunakannya dengan benar,\" kata Rifki bijak."
+        "text": "Suatu malam, Anisa mengundang Baydar ke kamarnya (A205) untuk makan malam bersama sebagai bentuk terima kasih karena Baydar sering membantunya. Suasana kamar kos terasa hangat dan tenang. Lampu meja menyala remang-remang, memberikan kehangatan di tengah udara malam Balikpapan yang dingin."
       },
       {
         "id": "p3",
-        "text": "Baydar mengangguk. Ia tahu perjalanannya masih panjang. Organisasi PAUD, entitas misterius yang disebut-sebut sebagai ancaman terbesar di dunia ini, belum menunjukkan taringnya. Tapi Baydar siap. Ia tidak akan lagi menjadi pemuda biasa yang tak berdaya."
+        "text": "Mereka duduk berdua di sofa kecil sambil menikmati makanan. Anisa menatap Baydar dengan senyum lembut yang tulus."
+      },
+      {
+        "id": "p4",
+        "text": "\"Baydar,\" panggil Anisa pelan dengan nada suara yang halus. \"Aku... benar-benar merasa nyaman dan aman kalau ada kamu di dekatku.\""
+      },
+      {
+        "id": "p5",
+        "text": "Baydar menghentikan suapannya sejenak. Melihat tatapan Anisa yang begitu jujur, jantungnya sempat berdegup sedikit lebih cepat dari biasanya. Ada perasaan hangat yang tak biasa menjalar di dadanya."
+      },
+      {
+        "id": "p6",
+        "text": "\"Aku juga merasa kamu teman yang baik, Anisa,\" jawab Baydar, mencoba bersikap natural."
+      },
+      {
+        "id": "p7",
+        "text": "Anisa tersenyum semakin lebar, lalu mendekatkan duduknya. Tanpa ragu, ia menyandarkan kepalanya pelan ke bahu Baydar. Aroma harum dari rambut pendeknya tercium jelas oleh Baydar. Bagi Anisa, momen sederhana ini adalah puncak dari perasaan cintanya yang mulai tumbuh berkembang."
+      },
+      {
+        "id": "p8",
+        "text": "Baydar membeku sejenak. Tangan kanannya terangkat pelan dan mengelus lembut rambut bondol Anisa. Sebuah momen romantis yang begitu manis dan hangat tercipta di antara mereka berdua tanpa perlu bertindak terlalu jauh."
+      },
+      {
+        "id": "p9",
+        "text": "Namun, di balik kehangatan momen tersebut, batin Baydar justru bergejolak hebat."
+      },
+      {
+        "id": "p10",
+        "text": "(Aduh... Anisa beneran suka sama aku? Tapi... jujur aja dia kan bukan anak SD! Tipe idealku itu kan anak kecil yang imut dan gampang dimanipulasi!) batin Baydar panik dalam hati, berjuang keras menahan pikiran absurdnya."
+      },
+      {
+        "id": "p11",
+        "text": "Meskipun merasa nyaman di dekat Anisa, Baydar tidak bisa melupakan tujuan utamanya. Ia memegang rahasia gelap dan ambisi gila untuk menaklukkan Organisasi PAUD Dunia dan menjadi top predator nomor satu."
+      },
+      {
+        "id": "p12",
+        "text": "Malam itu berakhir dengan manis. Hubungan mereka resmi beranjak dari sekadar tetangga kamar kos menjadi dua orang yang saling memiliki keterikatan emosional yang kuat. Anisa merasa telah menemukan pria pelindungnya, tanpa curiga sedikit pun tentang rahasia gila dan konspirasi besar yang sedang dirancang oleh Baydar di balik layar."
+      },
+      {
+        "id": "p13",
+        "text": "Langkah pertama Baydar untuk mengumpulkan kekuatan pun siap dimulai..."
       }
     ],
     "createdAt": "2026-07-23T00:00:00.000Z",
-    "updatedAt": "2026-07-23T00:00:00.000Z"
+    "updatedAt": "2026-07-23T13:43:32.414Z"
   },
   "ch-5": {
     "id": "ch-5",
-    "title": "Ancaman Organisasi PAUD",
+    "title": "Pesta Malam Tahun Baru & Kemunculan Markson",
     "number": 5,
-    "bannerUrl": "",
+    "bannerUrl": "/uploads/chapter-banners/1784814404281-whatsapp-image-2026-07-23-at-21-15-12-cropped.jpg",
     "content": [
       {
         "id": "p1",
-        "text": "Organisasi PAUD — nama yang terdengar lucu namun menakutkan bagi mereka yang tahu. Di balik nama kekanak-kanakan itu, tersembunyi organisasi kriminal paling berbahaya di dunia paralel. Mereka mengincar skill-skill langka, dan Baydar dengan SSS+ Skill-nya telah menjadi target utama."
+        "text": "Malam pergantian tahun 2024 tiba di lingkungan kos JK. Suasana riuh dan meriah menyelimuti area sekitar. Untuk merayakan momen tersebut, Baydar dan temannya, Rifki dari jurusan Teknik Lingkungan, mengadakan acara kumpul bersama di lantai atas kosan. Mereka mengundang Anisa, Indah, dan Agnes untuk menikmati kembang api dan es sirup buatan Rifki."
       },
       {
         "id": "p2",
-        "text": "Suatu malam, Baydar disergap oleh agen PAUD di lorong kampus. Pertarungan sengit terjadi. Baydar menggunakan skill barunya, Shadow Step, untuk menghindari serangan dan Hunter's Fury untuk melawan. Ini adalah pertama kalinya ia bertarung melawan manusia, bukan monster."
+        "text": "\"Selamat tahun baru semuanya!\" seru Anisa gembira sambil memegang kembang api kecil."
       },
       {
         "id": "p3",
-        "text": "Ia berhasil mengalahkan agen-agen itu, tapi ia tahu ini baru permulaan. Organisasi PAUD tidak akan tinggal diam. Mereka akan mengirim lebih banyak agen, dan suatu hari, pemimpin mereka sendiri akan datang. Baydar harus bersiap."
+        "text": "Suasana sangat hangat dan penuh tawa. Namun, kegembiraan itu tidak berlangsung lama. Saat jam menunjukkan pukul 23.55, suhu di area kos JK mendadak anjlok drastis. Es di dalam gelas sirup membeku seketika, dan angin dingin berhembus kencang menghempaskan dekorasi pesta."
+      },
+      {
+        "id": "p4",
+        "text": "\"Ugh... dingin banget, ada apa ini?\" keluh Indah dan Agnes sambil memeluk tubuh mereka sendiri."
+      },
+      {
+        "id": "p5",
+        "text": "BOOOMMM!"
+      },
+      {
+        "id": "p6",
+        "text": "Atap lantai atas kosan hancur berantakan! Dari tengah kepulan debu dan puing-puing bangunan, muncul sosok komandan iblis berotot besar dengan zirah besi hitam pekat. Ia adalah Markson, salah satu prajurit paling setia dan jenderal utama Faksi Iblis PAUD."
+      },
+      {
+        "id": "p7",
+        "text": "\"Fufufu... tempat yang ramai,\" geram Markson dengan suara berat. \"Aku mencium aroma kekuatan Loli Hunter di tempat ini. Siapa di antara kalian yang bernama Baydar?!\""
+      },
+      {
+        "id": "p8",
+        "text": "Aura tekanan dari Markson sangat kuat hingga membuat Indah, Agnes, dan Rifki lemas tak berdaya di lantai. Anisa yang ketakutan mencoba berdiri di depan teman-temannya."
+      },
+      {
+        "id": "p9",
+        "text": "\"Cepat pergi dari sini!\" teriak Baydar pada Rifki dan gadis-gadis itu."
+      },
+      {
+        "id": "p10",
+        "text": "\"Baydar! Kami tidak bisa meninggalkannmu!\" panggil Anisa panik."
+      },
+      {
+        "id": "p11",
+        "text": "\"Rifki! Bawa Anisa dan yang lainnya turun sekarang!\" perintah Baydar tegas."
+      },
+      {
+        "id": "p12",
+        "text": "Rifki dengan sigap menarik Anisa dan yang lain keluar dari area lantai atas menuju tempat aman. Begitu mereka pergi, Baydar tidak lagi menahan diri. Ia memanggil Artefak Gitar Suci milik-Nya."
+      },
+      {
+        "id": "p13",
+        "text": "\"Jadi kau orangnya? Lemah!\" ejek Markson sambil melancarkan serangan pukulan bergelombang penghancur beton."
+      },
+      {
+        "id": "p14",
+        "text": "Baydar bergerak cepat menghindari reruntuhan. Ia mengaktifkan skill pendukungnya dan memetik senar gitar dengan irama yang sangat cepat. Pertarungan sengit terjadi di atas atap kos JK di tengah riuhnya suara kembang api malam tahun baru."
+      },
+      {
+        "id": "p15",
+        "text": "BZZZZT! BANG!"
+      },
+      {
+        "id": "p16",
+        "text": "Menggunakan sisa tenaga dan kombinasi serangan gitar magisnya, Baydar berhasil memicu petir raksasa yang menembus dada Markson. Sang jenderal iblis terhempas hebat dan bertengger sekarat di balik puing-puing."
+      },
+      {
+        "id": "p17",
+        "text": "\"Ugh... tidak mungkin... manusia biasa sepertimu...\" bisik Markson terbatuk-batuk. Sebelum tubuhnya hancur menjadi abu, Markson menatap Baydar dengan senyum licik. \"Jangan senang dulu... Gusti Kotennn... Sang Raja Iblis Primordial... pasti akan... membalaskan dendamku...!\""
+      },
+      {
+        "id": "p18",
+        "text": "DHUUMM!"
+      },
+      {
+        "id": "p19",
+        "text": "Markson hancur menjadi debu, menyisakan reruntuhan atap kos JK dan keheningan malam. Baydar berdiri menatap abu tersebut dengan napas terengah-engah."
+      },
+      {
+        "id": "p20",
+        "text": "Ia menyadari bahwa kekalahan Markson hanyalah awal dari ancaman yang jauh lebih besar. Nama \"Koten\" kini tertanam di benaknya—sebuah ancaman primordial yang akan segera datang memburu jiwanya."
       }
     ],
     "createdAt": "2026-07-23T00:00:00.000Z",
-    "updatedAt": "2026-07-23T00:00:00.000Z"
+    "updatedAt": "2026-07-23T13:46:44.321Z"
   },
   "ch-6": {
     "id": "ch-6",
     "title": "Balas Dendam Primordial Demon King Koten",
     "number": 6,
+    "bannerUrl": "/uploads/chapter-banners/1784814458025-whatsapp-image-2026-07-23-at-21-15-11-cropped.jpg",
+    "content": [
+      {
+        "id": "p1",
+        "text": "Setelah beberapa hari yang damai berlalu, Baydar merasa semakin nyaman dengan kehadiran Anisa. Mereka menghabiskan waktu bersama di kampus, berlatih di ruang latihan, dan saling membantu dalam tugas-tugas kuliah. Meski begitu, Baydar selalu waspada, menyadari bahwa kemenangan nya setelah mengalahkan  Markson pasti akan menarik perhatian lebih banyak musuh."
+      },
+      {
+        "id": "p2",
+        "text": "<br>"
+      },
+      {
+        "id": "p3",
+        "text": "Suatu malam, saat Baydar sedang dalam perjalanan kembali ke kosnya, ia merasakan hawa yang sangat dingin dan berat. Instingnya segera menyadarkan bahwa ada bahaya yang mendekat. Baydar segera mengaktifkan salah satu kemampuannya, Predator Instinct, untuk mencari sumber ancaman."
+      },
+      {
+        "id": "p4",
+        "text": "<br>"
+      },
+      {
+        "id": "p5",
+        "text": "Tiba-tiba, sebuah portal gelap terbuka di hadapannya, dan dari dalam portal itu keluar sosok yang sangat mengintimidasi. Sosok itu adalah Raja Iblis Primordial, Koten, yang dikenal sebagai salah satu iblis terkuat di dunia PAUD. Koten memancarkan aura gelap yang sangat kuat, membuat udara sekitar mereka bergetar."
+      },
+      {
+        "id": "p6",
+        "text": "<br>"
+      },
+      {
+        "id": "p7",
+        "text": "\"Jadi, kau yang telah mengalahkan Markson,\" kata Koten dengan suara yang dalam dan penuh kebencian. \"Dia adalah salah satu prajuritku yang paling setia, dan aku tidak bisa membiarkan ini berlalu begitu saja. Aku akan menghancurkanmu untuk membalas dendamnya.\""
+      },
+      {
+        "id": "p8",
+        "text": "<br>"
+      },
+      {
+        "id": "p9",
+        "text": "Baydar menatap Koten dengan tenang, meskipun ia tahu bahwa lawannya kali ini jauh lebih kuat. \"Aku tidak peduli siapa kau. Jika kau menghalangi jalanku, aku akan mengalahkanmu seperti yang lain,\" jawab Baydar dengan tegas."
+      },
+      {
+        "id": "p10",
+        "text": "<br>"
+      },
+      {
+        "id": "p11",
+        "text": "Pertarungan pun dimulai. Koten melancarkan serangan pertama dengan mengeluarkan bola api besar dari tangannya. Baydar dengan cepat mengaktifkan Shadow Step untuk menghindari serangan tersebut, kemudian menyerang balik dengan Hunter's Fury, menghujani Koten dengan serangan beruntun yang cepat."
+      },
+      {
+        "id": "p12",
+        "text": "<br>"
+      },
+      {
+        "id": "p13",
+        "text": "Namun, Koten bukanlah lawan yang mudah ditaklukkan. Dengan kekuatan yang luar biasa, Koten menahan serangan Baydar dan membalas dengan serangan gelombang energi yang sangat kuat. Baydar terhempas ke dinding, merasakan tubuhnya terluka parah."
+      },
+      {
+        "id": "p14",
+        "text": "<br>"
+      },
+      {
+        "id": "p15",
+        "text": "Menggunakan kekuatan dari skill SSS+ \"Loli Hunter\", Baydar memfokuskan energinya dan mengaktifkan Battle Trance, meningkatkan kekuatan fisik dan kecepatan reaksinya. Dengan tubuh yang dikuatkan, Baydar meluncur maju dan mengeluarkan serangan terbaiknya, Melodi Etam, yang memanggil petir dari gitar suci miliknya untuk menghantam Koten."
+      },
+      {
+        "id": "p16",
+        "text": "<br>"
+      },
+      {
+        "id": "p17",
+        "text": "Petir yang kuat menghantam Koten, membuatnya terkejut dan sedikit mundur. Namun, Koten hanya tersenyum licik. \"Kau kuat, tapi belum cukup untuk mengalahkanku,\" katanya, lalu mengeluarkan kekuatan penuh dari dalam dirinya, mengubah bentuknya menjadi lebih besar dan menakutkan."
+      },
+      {
+        "id": "p18",
+        "text": "<br>"
+      },
+      {
+        "id": "p19",
+        "text": "Baydar tahu bahwa ini adalah saatnya menggunakan semua kemampuannya. Dengan Iron Skin diaktifkan untuk meningkatkan pertahanan dan Shadow Fang di tangannya, Baydar melancarkan serangan terakhirnya dengan kekuatan penuh. Namun, Koten dengan mudah menangkis serangan tersebut dan membalas dengan pukulan kuat yang membuat Baydar terlempar jauh."
+      },
+      {
+        "id": "p20",
+        "text": "<br>"
+      },
+      {
+        "id": "p21",
+        "text": "Baydar terhempas ke tanah, tubuhnya terasa remuk. Ia berusaha bangkit, tetapi tubuhnya tidak mau bergerak. Koten mendekat dengan senyum dingin. \"Ini adalah akhir dari perjalananmu,\" kata Koten sebelum melancarkan serangan terakhirnya."
+      },
+      {
+        "id": "p22",
+        "text": "<br>"
+      },
+      {
+        "id": "p23",
+        "text": "Tepat sebelum serangan itu mengenai Baydar, sebuah portal tiba-tiba muncul dan menarik Baydar masuk, menyelamatkannya dari kematian. Baydar terjatuh di tempat yang asing, tubuhnya terluka parah dan hampir tidak bisa bergerak. Sebuah notifikasi muncul di hadapannya:"
+      },
+      {
+        "id": "p24",
+        "text": "<br>"
+      },
+      {
+        "id": "p25",
+        "text": "\"Anda telah dikalahkan oleh Primordial Demon King Koten. Pertahankan tekad Anda dan latihlah diri Anda lebih keras untuk membalas kekalahan ini.\""
+      },
+      {
+        "id": "p26",
+        "text": "<br>"
+      },
+      {
+        "id": "p27",
+        "text": "Baydar tergeletak di tanah, merasakan sakit yang luar biasa di seluruh tubuhnya. Namun, di dalam hatinya, api tekad berkobar semakin kuat. \"Koten, aku bersumpah akan mengalahkanmu lain kali. Aku akan menjadi lebih kuat, dan aku akan membalaskan dendam ini,\" ucapnya dengan suara lemah namun penuh tekad."
+      },
+      {
+        "id": "p28",
+        "text": "<br>"
+      },
+      {
+        "id": "p29",
+        "text": "Dengan sisa tenaganya, Baydar merangkak menuju tempat yang lebih aman untuk memulihkan diri, bertekad untuk melatih kemampuan dan kekuatannya lebih keras dari sebelumnya. Perjalanan Baydar untuk menjadi dewa PAUD dan membalas dendam kepada Koten baru saja dimulai."
+      },
+      {
+        "id": "p30",
+        "text": "<br>"
+      }
+    ],
+    "createdAt": "2026-07-22T17:41:11.133Z",
+    "updatedAt": "2026-07-23T13:47:38.070Z"
+  },
+  "1784814629852": {
+    "id": "1784814629852",
+    "title": "Kebangkitan dan Pembalasan",
+    "number": 7,
+    "bannerUrl": "/uploads/chapter-banners/1784814629837-whatsapp-image-2026-07-23-at-21-15-10-cropped.jpg",
+    "content": [
+      {
+        "id": "p1",
+        "text": "Baydar terbaring di tanah, napasnya tersengal-sengal. Tubuhnya terluka parah setelah dikalahkan oleh Primordial Demon King Koten. Rasa sakit menyengat setiap saraf di tubuhnya, dan kesadarannya mulai memudar. Namun, dalam keadaan sekarat, sebuah cahaya terang muncul di atasnya.<br>"
+      },
+      {
+        "id": "p2",
+        "text": "\"Bangun, anak muda,\" sebuah suara lembut tapi kuat terdengar. \"Aku tidak akan membiarkanmu mati di sini.\""
+      },
+      {
+        "id": "p3",
+        "text": "Baydar merasa tubuhnya diangkat, dan ketika membuka matanya, dia mendapati dirinya berada di sebuah tempat berjualan , dengan risol mayo yang berkilauan dan pj danus di sekelilingnya."
+      },
+      {
+        "id": "p4",
+        "text": "<br>"
+      },
+      {
+        "id": "p5",
+        "text": "\"Dimana... aku?\" Baydar berbisik lemah."
+      },
+      {
+        "id": "p6",
+        "text": "<br>"
+      },
+      {
+        "id": "p7",
+        "text": "\"Kau berada di tempatku, dunia para danus. Namaku Lutfan, Dewa Danus,\" kata pria berjubah putih di depannya. \"Aku tertarik padamu, Baydar. Kekuatanmu luar biasa dan potensimu besar.\""
+      },
+      {
+        "id": "p8",
+        "text": "<br>"
+      },
+      {
+        "id": "p9",
+        "text": "Lutfan merawat Baydar hingga pulih, kemudian mulai melatihnya dengan keras. Latihan ini tidak hanya untuk meningkatkan kemampuan fisik Baydar, tetapi juga untuk mengasah kekuatan SSS-nya, Loli Hunter, yang kini mulai bercabang menjadi berbagai kemampuan seperti peningkatan diri dan pertahanan."
+      },
+      {
+        "id": "p10",
+        "text": "<br>"
+      },
+      {
+        "id": "p11",
+        "text": "Waktu berlalu dan Baydar semakin kuat. Suatu hari, saat dia sedang berlatih, getaran hebat terasa di seluruh kediaman Lutfan."
+      },
+      {
+        "id": "p12",
+        "text": "<br>"
+      },
+      {
+        "id": "p13",
+        "text": "\"Baydar, ada sesuatu yang salah,\" Lutfan berkata dengan serius."
+      },
+      {
+        "id": "p14",
+        "text": "<br>"
+      },
+      {
+        "id": "p15",
+        "text": "Tiba-tiba, tembok-tembok di sekitar mereka runtuh, dan dari balik debu dan reruntuhan, muncul seorang pria dengan penampilan punk yang mencolok."
+      },
+      {
+        "id": "p16",
+        "text": "<br>"
+      },
+      {
+        "id": "p17",
+        "text": "\"Jadi ini tempat persembunyianmu, Baydar,\" Lana, Raja Punk, berkata dengan senyum sinis. \"Aku datang untuk menghabisimu atas perintah Koten.\""
+      },
+      {
+        "id": "p18",
+        "text": "<br>"
+      },
+      {
+        "id": "p19",
+        "text": "Lutfan segera melindungi Baydar. \"Baydar, mundur! Biar aku yang menghadapinya.\""
+      },
+      {
+        "id": "p20",
+        "text": "<br>"
+      },
+      {
+        "id": "p21",
+        "text": "Pertarungan sengit pun terjadi antara Lutfan dan Lana. Lutfan menunjukkan kekuatan dahsyatnya, tetapi Lana, dengan kekuatan yang diberikan Koten, ternyata lebih kuat dari yang diduga. Dalam satu serangan terakhir, Lana berhasil melukai Lutfan dengan fatal."
+      },
+      {
+        "id": "p22",
+        "text": "<br>"
+      },
+      {
+        "id": "p23",
+        "text": "\"Lutfan!\" Baydar berteriak, melihat gurunya jatuh."
+      },
+      {
+        "id": "p24",
+        "text": "<br>"
+      },
+      {
+        "id": "p25",
+        "text": "\"Baydar... gunakan semua yang telah kuajarkan padamu,\" Lutfan berkata dengan napas terputus-putus. \"Kau harus melawan dan menang.\""
+      },
+      {
+        "id": "p26",
+        "text": "<br>"
+      },
+      {
+        "id": "p27",
+        "text": "Dengan amarah yang membara, Baydar bangkit. Kekuatan baru yang dia peroleh dari latihan bersama Lutfan kini terbangkitkan sepenuhnya. Dia menghadapi Lana dengan tekad bulat."
+      },
+      {
+        "id": "p28",
+        "text": "<br>"
+      },
+      {
+        "id": "p29",
+        "text": "\"Kau akan membayar untuk ini!\" Baydar berteriak."
+      },
+      {
+        "id": "p30",
+        "text": "Baydar, saat ini adalah waktunya,\" desis Lutfan dengan suara yang lemah. \"Kekuatanmu telah berkembang melebihi yang pernah kubayangkan. Sekarang, ambillah langkah selanjutnya.\""
+      },
+      {
+        "id": "p31",
+        "text": "<br>"
+      },
+      {
+        "id": "p32",
+        "text": "Kemudian skill Loli Hunter, bervolusi menjadi Loli Lord!\" kata Baydar dengan tegas, menghadapi energi yang tiba-tiba memenuhi sekelilingnya."
+      },
+      {
+        "id": "p33",
+        "text": "<br>"
+      },
+      {
+        "id": "p34",
+        "text": "Baydar merasakan kekuatan gelap yang tak terbayangkan mengalir ke dalam dirinya. Tubuhnya bergetar saat dia mulai menguasai kekuatan void dan energi gelap. Mata Baydar berubah menjadi merah menyala, dan tanduk kecil muncul di kepalanya."
+      },
+      {
+        "id": "p35",
+        "text": "<br>"
+      },
+      {
+        "id": "p36",
+        "text": "\"Loli Lord!\" Baydar berteriak, menguasai kekuatan barunya."
+      },
+      {
+        "id": "p37",
+        "text": "<br>"
+      },
+      {
+        "id": "p38",
+        "text": "Dengan kekuatan Loli Lord, Baydar tidak hanya memiliki kecepatan dan kekuatan yang lebih besar, tetapi juga dapat mengendalikan energi gelap untuk serangan yang lebih mematikan. Namun, kekuatan ini tidak datang tanpa risiko. Setiap kali Baydar menggunakan kekuatan gelap, ia merasa seperti sedang kehilangan kendali, seperti ada sesuatu yang menariknya ke dalam kegelapan."
+      },
+      {
+        "id": "p39",
+        "text": "<br>"
+      },
+      {
+        "id": "p40",
+        "text": "Di tengah keberhasilannya, Baydar merasa kekhawatiran. Dia tidak boleh terlalu sering menggunakan kekuatan gelap ini. Kekuatan ini bisa memakan dirinya sendiri, mengubahnya menjadi setengah demon yang tidak bisa dikendalikan."
+      },
+      {
+        "id": "p41",
+        "text": "<br>"
+      },
+      {
+        "id": "p42",
+        "text": "Pertarungan antara Baydar dan Lana berlangsung sengit. Baydar menghantam Lana dengan kekuatan penuh."
+      },
+      {
+        "id": "p43",
+        "text": "<br>"
+      },
+      {
+        "id": "p44",
+        "text": "Lana terjatuh, tak berdaya. \"Ini... tidak mungkin,\" katanya sebelum akhirnya menghilang."
+      },
+      {
+        "id": "p45",
+        "text": "<br>"
+      },
+      {
+        "id": "p46",
+        "text": "Baydar berlutut di samping Lutfan yang sekarat. \"Maafkan aku, Lutfan.\""
+      },
+      {
+        "id": "p47",
+        "text": "<br>"
+      },
+      {
+        "id": "p48",
+        "text": "\"Jangan minta maaf, Baydar,\" Lutfan tersenyum lemah. \"Kau telah menunjukkan kekuatan dan keberanian yang luar biasa. Sekarang, lanjutkan perjuanganmu. Jadilah dewa yang kau impikan.\""
+      },
+      {
+        "id": "p49",
+        "text": "<br>"
+      },
+      {
+        "id": "p50",
+        "text": "Dengan air mata mengalir, Baydar mengangguk. Dia bersumpah akan membalas dendam pada Koten dan mengalahkan semua musuh yang menghalangi jalannya. Perjuangan baru Baydar kini dimulai, dengan tekad yang lebih kuat dan kekuatan yang lebih besar dari sebelumnya."
+      },
+      {
+        "id": "p51",
+        "text": "<br>"
+      }
+    ],
+    "createdAt": "2026-07-23T13:50:29.854Z",
+    "updatedAt": "2026-07-23T13:59:26.462Z"
+  },
+  "1784815279809": {
+    "id": "1784815279809",
+    "title": "Teman dan Musuh",
+    "number": 8,
+    "bannerUrl": "/uploads/chapter-banners/1784815279794-whatsapp-image-2026-07-23-at-21-15-10-1-cropped.jpg",
+    "content": [
+      {
+        "id": "p1",
+        "text": "Setelah mengalahkan Lana dan menerima kenyataan pahit akan kepergian gurunya, Lutfan, Baydar kembali ke kehidupan kampusnya. Hari-hari terasa lebih sunyi, namun ia mencoba menikmati momen-momen sederhana. Di bawah pohon besar di sudut kampus, Baydar sering duduk dan bermain gitar, menenangkan pikirannya."
+      },
+      {
+        "id": "p2",
+        "text": "<br>"
+      },
+      {
+        "id": "p3",
+        "text": "Suatu siang, ketika ia sedang asyik memetik senar gitarnya, seorang pria berkaca mata berwajah tegas dan berpenampilan kasual mendekatinya. \"Kamu pasti Baydar,\" sapa pria itu."
+      },
+      {
+        "id": "p4",
+        "text": "<br>"
+      },
+      {
+        "id": "p5",
+        "text": "Baydar menatap pria itu dengan penasaran. \"Siapa kamu?\""
+      },
+      {
+        "id": "p6",
+        "text": "<br>"
+      },
+      {
+        "id": "p7",
+        "text": "\"Aku Alfriza, seorang Kahima legendaris,\" jawabnya dengan senyum. \"Namamu sudah melejit dan terkenal setelah bentrokanmu dengan Koten. Aku ingin mengajakmu bergabung dengan kabinetku, SIKNTL. Kami adalah kumpulan orang-orang kuat dengan tujuan yang sama.\""
+      },
+      {
+        "id": "p8",
+        "text": "<br>"
+      },
+      {
+        "id": "p9",
+        "text": "Baydar menaruh gitarnya dan berdiri. \"Terima kasih, tapi aku tidak tertarik,\" jawabnya tegas."
+      },
+      {
+        "id": "p10",
+        "text": "<br>"
+      },
+      {
+        "id": "p11",
+        "text": "Alfriza tersenyum sinis. \"Kamu menolak tawaranku? Apakah kamu tidak tahu siapa aku?\""
+      },
+      {
+        "id": "p12",
+        "text": "<br>"
+      },
+      {
+        "id": "p13",
+        "text": "Baydar mendengus. \"Aku tidak peduli siapa kamu.\""
+      },
+      {
+        "id": "p14",
+        "text": "Merasa tersinggung, Alfriza mengepalkan tinjunya. \"Kalau begitu, mari kita lihat seberapa kuat kamu sebenarnya.\""
+      },
+      {
+        "id": "p15",
+        "text": "<br>"
+      },
+      {
+        "id": "p16",
+        "text": "Pertarungan antara Baydar dan Alfriza terjadi dengan cepat. Meskipun Baydar sudah sangat kuat, Alfriza dengan tinju legendarisnya berhasil memojokkan Baydar. Dengan satu pukulan terakhir, Baydar terlempar dan terjatuh ke tanah."
+      },
+      {
+        "id": "p17",
+        "text": "<br>"
+      },
+      {
+        "id": "p18",
+        "text": "Dengan nafas tersengal, Baydar menatap Alfriza yang mendekatinya. \"Baiklah, aku akan mengikutimu ke markas mu untuk melihat lihat dan jika tertarik mungkin aku akan bergabung dengan kabinetmu.\""
+      },
+      {
+        "id": "p19",
+        "text": "<br>"
+      },
+      {
+        "id": "p20",
+        "text": "Alfriza membantu Baydar berdiri. \"Kamu tidak akan menyesal,\" katanya. \"Mari, aku akan memperkenalkanmu kepada anggota SIKNTL\"."
+      },
+      {
+        "id": "p21",
+        "text": "<br>"
+      },
+      {
+        "id": "p22",
+        "text": "Baydar dibawa ke markas SIKNTL dan diperkenalkan dengan anggota anggotanya salah satunya adalah :"
+      },
+      {
+        "id": "p23",
+        "text": "<br>"
+      },
+      {
+        "id": "p24",
+        "text": "1. T.I.O (Technology Intelligent Observation), sebuah AI yang berkembang menjadi sangat cerdas dan kini memiliki tubuh robot untuk ditinggali. Ia adalah Kepala Departemen Badan Intelejen milik Himpunan (BIMH). Alfriza menjelaskan bahwa T.I.O adalah salah satu aset paling berharga karena kemampuannya mengumpulkan dan menganalisis informasi dengan kecepatan luar biasa."
+      },
+      {
+        "id": "p25",
+        "text": "<br>"
+      },
+      {
+        "id": "p26",
+        "text": "2. A-Kill, seorang tentara veteran perang berlengan cyberprostetik yang ahli dalam persenjataan walau terlihat seram namun sebenarnya baik hati. Kini, ia menjabat sebagai Kepala Departemen Dagro (Dalam Negro), bertanggung jawab atas keamanan dan pertahanan."
+      },
+      {
+        "id": "p27",
+        "text": "<br>"
+      },
+      {
+        "id": "p28",
+        "text": "3. Zac, Kepala Departemen BDSM yang selalu ditemani oleh macan hutan mistiknya. Zac memiliki kemampuan untuk mengendalikan dan berkomunikasi dengan hewan-hewan mistik, menjadikannya sangat berbahaya dalam pertempuran.Departemen nya berfokus pada pelatihan sumber daya atau prajurit SIKNTL"
+      },
+      {
+        "id": "p29",
+        "text": "<br>"
+      },
+      {
+        "id": "p30",
+        "text": "\"Selamat datang di SIKNTL Baydar,\" kata Alfriza. \"Bersama-sama, kita akan menjadi lebih kuat dan menghadapi musuh-musuh yang mengancam dunia.\"Setelah melihat lihat dan berkenalan baydar kemudian memutuskan pulang dan berkata akan kupikirkan soal kabinet ini nanti, walau berkata seperti itu nyatanya baydar tidak memiliki rasa untuk bergabung karena menurutnya ia lebih suka untuk solo dan tidak dikelilingi banyak orang."
+      },
+      {
+        "id": "p31",
+        "text": "<br>"
+      },
+      {
+        "id": "p32",
+        "text": "Suatu hari, kampus tiba-tiba diguncang oleh ledakan besar. Rupanya, ledakan itu adalah ulah organisasi kejahatan KM (Killing Murderer) yang berisi para pembunuh bayaran keji. Pemimpin mereka adalah seorang asasin terkenal bernama Billi the Butcher. Mereka telah dipekerjakan oleh seseorang yang misterius untuk membunuh rektor kampus ITK."
+      },
+      {
+        "id": "p33",
+        "text": "<br>"
+      },
+      {
+        "id": "p34",
+        "text": "T. I. O Mendeteksi dengan sistemnya adanya bahaya yang muncul dikampus dan segera memberitahukan nya pada alftiza yang sedang belajar kalkulus. Alfriza yg mendengar kabar itu segera pergi terburu buru walau sedang quiz kalkulus"
+      },
+      {
+        "id": "p35",
+        "text": "<br>"
+      },
+      {
+        "id": "p36",
+        "text": "Alfriza dan kabinetnya segera menghadapi para penyerang. Pertarungan sengit terjadi di seluruh kampus. Billi the Butcher berhadapan langsung dengan Alfriza. Keduanya bertarung dengan kekuatan penuh, tapi Alfriza terpojokkan setelah terkena liur beracun dari Billi."
+      },
+      {
+        "id": "p37",
+        "text": "<br>"
+      },
+      {
+        "id": "p38",
+        "text": "Saat Billi hendak menghabisi Alfriza, Baydar muncul dan menyelamatkannya. Baydar kemudian memunculkan form terkuatnya yaitu Half Demon Mode, aura kegelapan yang kuat menyelimutinya. Alfriza terkejut dengan kekuatan baydar saat ini dan berbeda disaat dia melawannya kemarin. Bersama-sama, mereka melawan Billi dan pasukannya, memaksa mereka mundur dari ITK."
+      },
+      {
+        "id": "p39",
+        "text": "Baydar kemudian berkata \"Setelah kupikirkan lagi,\" kata Baydar dengan nada tegas, \"aku tidak tertarik bergabung dengan kabinetmu, Alfriza, karena kalian lemah.\""
+      },
+      {
+        "id": "p40",
+        "text": "<br>"
+      },
+      {
+        "id": "p41",
+        "text": "Alfriza mendengar itu dengan kesal, tetapi ia sadar bahwa mereka perlu lebih kuat. Meski begitu, Baydar berjanji akan menjaga kampus ITK agar tetap aman dan damai.mereka kemudian berjabat tangan sebagai tanda kerja sama"
+      },
+      {
+        "id": "p42",
+        "text": "<br>"
+      },
+      {
+        "id": "p43",
+        "text": "Sementara itu, di tempat lain, Rafi, presiden PAUD, mengamati seluruh kejadian itu dari balik bayang-bayang kantornya. Dengan Michele, asistennya, di sisinya, Rafi tersenyum tipis. \"Sepertinya kita menemukan seseorang yang  ,\" katanya dengan nada penuh arti."
+      },
+      {
+        "id": "p44",
+        "text": "<br>"
+      },
+      {
+        "id": "p45",
+        "text": "Baydar tidak menyadari bahwa langkahnya untuk melindungi kampus ITK akan membawanya ke petualangan yang lebih besar dan berbahaya. Pertarungan melawan Koten belum berakhir, dan musuh-musuh baru menunggu di balik bayang-bayang"
+      },
+      {
+        "id": "p46",
+        "text": "<br><br>"
+      }
+    ],
+    "createdAt": "2026-07-23T14:01:19.811Z",
+    "updatedAt": "2026-07-23T14:01:19.836Z"
+  },
+  "1784815411842": {
+    "id": "1784815411842",
+    "title": "Kehidupan Kampus anak remaja ",
+    "number": 9,
+    "bannerUrl": "/uploads/chapter-banners/1784815411824-whatsapp-image-2026-07-23-at-21-15-15-cropped.jpg",
+    "content": [
+      {
+        "id": "p1",
+        "text": "Baydar kembali ke rutinitas kampusnya setelah dan bekerja sama dengan SIKNTL mengusir organisasi KM yang merusuh dikampus, dia sering kali bolos kuliah karena berbagai alasan. Akibatnya, nilai-nilai kuliahnya anjlok dan dia terpaksa mengulang beberapa mata kuliah."
+      },
+      {
+        "id": "p2",
+        "text": "<br>"
+      },
+      {
+        "id": "p3",
+        "text": "Suatu hari, Baydar menerima panggilan dari dosen walinya, Ibu Jasmine. Ibu Jasmine adalah seorang guru muda yang cantik dan memiliki aura seksi, seorang MILF yang kerap menarik perhatian banyak mahasiswa. Dia memanggil Baydar ke kantornya untuk memberikan nasihat."
+      },
+      {
+        "id": "p4",
+        "text": "<br>"
+      },
+      {
+        "id": "p5",
+        "text": "\"Baydar, kamu harus lebih serius dalam kuliahmu,\" kata Ibu Jasmine dengan suara lembut namun tegas. \"Nilai-nilaimu sangat mengkhawatirkan. Jika kamu terus seperti ini, kamu tidak akan lulus tepat waktu.\""
+      },
+      {
+        "id": "p6",
+        "text": "<br>"
+      },
+      {
+        "id": "p7",
+        "text": "Baydar mengangguk dengan rasa bersalah. \"Iya, Bu Jasmine. Saya akan berusaha lebih keras.\""
+      },
+      {
+        "id": "p8",
+        "text": "<br>"
+      },
+      {
+        "id": "p9",
+        "text": "Setelah mendapatkan nasihat dari Ibu Jasmine, Baydar berjalan pulang dari gedung B. Di tengah perjalanan, dia melihat seorang anak kecil yang terlalu fokus bermain HP dan hampir tertabrak motor. Dengan sigap, Baydar menyelamatkan anak itu."
+      },
+      {
+        "id": "p10",
+        "text": "<br>"
+      },
+      {
+        "id": "p11",
+        "text": "Anak kecil itu, seorang gadis cantik dan manis berusia sekitar 12 tahun, terpukau oleh kehebatan Baydar dan tersipu malu. \"Terima kasih, Kakak. Kamu hebat sekali,\" kata gadis itu dengan wajah memerah."
+      },
+      {
+        "id": "p12",
+        "text": "<br>"
+      },
+      {
+        "id": "p13",
+        "text": "Baydar tersenyum. \"Kamu tidak apa-apa, kan? Nama kamu siapa?\""
+      },
+      {
+        "id": "p14",
+        "text": "<br>"
+      },
+      {
+        "id": "p15",
+        "text": "\"Namaku Yumi,\" jawabnya dengan sopan. \"Aku ke sini untuk mencari kakakku.\""
+      },
+      {
+        "id": "p16",
+        "text": "<br>"
+      },
+      {
+        "id": "p17",
+        "text": "Baydar yang sedikit sagne berinisiatif membantu Yumi mencari kakaknya. Mereka berkeliling kampus, dari gedung G sampai labter, tetapi tidak juga menemukan kakaknya. Setelah lelah berkeliling, mereka memutuskan untuk beristirahat di parkiran."
+      },
+      {
+        "id": "p18",
+        "text": "<br>"
+      },
+      {
+        "id": "p19",
+        "text": "Tiba-tiba, seorang wanita berteriak memanggil nama Yumi. \"Yumi! Yumi!\""
+      },
+      {
+        "id": "p20",
+        "text": "<br>"
+      },
+      {
+        "id": "p21",
+        "text": "Yumi berteriak balik, \"Kakak!\" dan berlari menuju wanita itu. Baydar terkejut melihat bahwa kakak Yumi adalah Anisa, teman dekatnya yang sudah dikenalnya."
+      },
+      {
+        "id": "p22",
+        "text": "<br>"
+      },
+      {
+        "id": "p23",
+        "text": "\"Baydar? Apa yang terjadi?\" tanya Anisa kaget melihat adiknya bersama Baydar."
+      },
+      {
+        "id": "p24",
+        "text": "<br>"
+      },
+      {
+        "id": "p25",
+        "text": "Baydar menjelaskan semuanya. Anisa berterima kasih kepada Baydar dan lalu berpamitan. \"Sampai jumpa lagi, Kakak yang tampan,\" kata Yumi sambil melambai dengan wajah memerah."
+      },
+      {
+        "id": "p26",
+        "text": "<br>"
+      },
+      {
+        "id": "p27",
+        "text": "Malam harinya, Baydar menghadiri  sharing session mingguan dengan kakak tingkatnya di sebuah kafe di GC. Saat sedang asyik mengobrol membahas makrab dia melihat Ibu Jasmine yang sedang minum kopi sendirian di pojok kafe. Baydar hendak menyapa, tetapi Ibu Jasmine yang terlihat sedih dan badmood tiba tibamemaksa dia duduk dan membuat baydar terpaksa mendengar semua curhatan dan keluh kesahnya"
+      },
+      {
+        "id": "p28",
+        "text": "<br>"
+      },
+      {
+        "id": "p29",
+        "text": "\"Menjadi dosen baru itu sulit,\" kata Ibu Jasmine dengan sambil menghela . \"Apalagi karena rentang umurku dengan para mahasiswa tidak terlalu jauh. Mereka seringkali tidak menghargai otoritasku.\""
+      },
+      {
+        "id": "p30",
+        "text": "<br>"
+      },
+      {
+        "id": "p31",
+        "text": "Baydar mendengarkan dengan penuh perhatian. Dan berfikir curiga apakah ibu ini sedang mabuk tetapi kita kan ada dicoffeshop. Waktu pun berlarut, dan akhirnya bu Jasmine capek dan ingin pulang lalu saat ingin pulang, motor Ibu Jasmine tiba tiba tidak bisa menyala. Baydar yang melihat itu menawarkan untuk mengantar Ibu Jasmine pulang ke kos-kosannya. Lalu ia akan mengurus motor bu Jasmine kebengkel, bu Jasmine sangat berterima kasih dengan kebaikan baydar. Walau dia awalnay kupikir mahasiswa yang bandel suka membolos rupanya dia pria yang baik.lalu saat mengantar ibu jasmine pulang baydar terkaget karena Ternyata, Ibu Jasmine tinggal di kos-kosan, rupanya karena ia berasal dari luar kota dan baru bekerja di ITK sehingga ia memutuskan untuk ngekos saja"
+      },
+      {
+        "id": "p32",
+        "text": "<br>"
+      },
+      {
+        "id": "p33",
+        "text": "Setelah mengantar Ibu Jasmine pulang, di perjalanan pulang, Baydar merasa ada sesuatu yang menguntitnya. Tiba-tiba, ban motor Baydar kempes dan hancur seperti ditembak sesuatu, memaksanya melompat dari motor. Motor tersebut terjatuh dan meledak."
+      },
+      {
+        "id": "p34",
+        "text": "<br>"
+      },
+      {
+        "id": "p35",
+        "text": "Dari bayang-bayang, muncul sosok misterius yang memperkenalkan dirinya sebagai Ladybug. \"Aku adalah mantan salah satu dari empat Raja Surgawi yang melayani Koten. Aku dibuang karena dianggap lemah.tetapi Kini, aku akan membunuhmu untuk menunjukkan kualitasku pada Koten dan kembali diangkat menjadi warga lagi\""
+      },
+      {
+        "id": "p36",
+        "text": "<br>"
+      },
+      {
+        "id": "p37",
+        "text": "Baydar bersiap-siap untuk menghadapi Ladybug. Di tengah kegelapan malam, pertempuran baru pun dimulai.wanita itu mengeluarkan banyak serangga dari lengannya baydar lalu menghindar tetapi berhasil tersengat dan itu sangat terasa menyakitkan. Asal kau tahu para seranggaku ini special, kulit mereka ratusan kali lebih kuat dari serangga biasa dan memiliki racun disengatanya. Baydar lalu melesat cepat untuk menyerang ladybug dengan belatinya tetapi tubuh ladybug berubah sebagian menjadi serangga. Rupanya ladybug bisa memecah tubuhnya menjadi jutaan serangga lalu kumpulan serangga itu menyerang seperti badai kuat. Baydar hanya bisa bertahan sembari ratusan tidak ribuan serangga menyerang kulitnya. Lalu ketika serangan itu berakhir terlihat tubuh baydar berlumuran darah dan tiba tiba terasa mati rasa karena efek racun para serangga."
+      },
+      {
+        "id": "p38",
+        "text": "<br>"
+      },
+      {
+        "id": "p39",
+        "text": "Ladybug tertawa puas karena berhasil membuat tunduk musuh sang raja iblis koten \"kupikir kau lebih kuat dari ini baydar, hahahahah\". Namun tiba tiba muncul serangan dari antah berantah mengenai ladybug  tetapi tubuhnya tetap dapat bersatu kembali dan orang yang menyerang nya ternyata adalah sang kahima legendaris Alfriza. Alfriza berkata aku mendapat kabar dari T. I. O bahwa pelacak yang kami tanam padamu diam diam tiba tiba menghilang dan aku bergegas kemari, rupanya feeling ku benar. Akankah pertarungan ladybug vs Kahima legendaris ini berakhir epik kita tunggu di next chapter"
+      },
+      {
+        "id": "p40",
+        "text": "<br>"
+      }
+    ],
+    "createdAt": "2026-07-23T14:03:31.844Z",
+    "updatedAt": "2026-07-23T14:03:31.906Z"
+  },
+  "1784815479432": {
+    "id": "1784815479432",
+    "title": "Pengungkapan Mengejutkan",
+    "number": 10,
     "bannerUrl": "",
     "content": [
       {
         "id": "p1",
-        "text": "Setelah beberapa hari yang damai berlalu, Baydar merasa semakin nyaman dengan kehadiran Anisa. Mereka menghabiskan waktu bersama di kampus, berlatih di ruang latihan, dan saling membantu dalam tugas-tugas kuliah. Meski begitu, Baydar selalu waspada, menyadari bahwa kemenangan nya setelah mengalahkan Markson pasti akan menarik perhatian lebih banyak musuh."
+        "text": "Baydar yang tubuhnya masih lemah akibat racun Ladybug, berusaha berdiri kembali. Namun, sebelum dia bisa bertindak lebih jauh, Alfriza muncul untuk membantu. Alfriza langsung menghadapi Ladybug dengan jurus andalannya, Tinju Pembunuh Dewa. Aura kuat menyelimuti tinjunya, dan sebuah tinju berenergi besar menghantam Ladybug dengan keras. Namun, tubuh Ladybug yang terdiri dari jutaan serangga tetap bisa pulih kembali."
       },
       {
         "id": "p2",
-        "text": "Suatu malam, saat Baydar sedang dalam perjalanan kembali ke kosnya, ia merasakan hawa yang sangat dingin dan berat. Instingnya segera menyadarkan bahwa ada bahaya yang mendekat. Baydar segera mengaktifkan salah satu kemampuannya, Predator Instinct, untuk mencari sumber ancaman."
+        "text": "<br>"
       },
       {
         "id": "p3",
-        "text": "Tiba-tiba, sebuah portal gelap terbuka di hadapannya, dan dari dalam portal itu keluar sosok yang sangat mengintimidasi. Sosok itu adalah Raja Iblis Primordial, Koten, yang dikenal sebagai salah satu iblis terkuat di dunia PAUD. Koten memancarkan aura gelap yang sangat kuat, membuat udara sekitar mereka bergetar."
+        "text": "Pertarungan sengit pun terjadi. Alfriza dan Ladybug saling melancarkan serangan demi serangan. Baydar, yang sedikit pulih, melepaskan jurus bernama Child Eater. Sebuah bayangan tangan gelap keluar dari tangannya, mengikat tubuh Ladybug, memberikan Alfriza kesempatan untuk melayangkan tinju demi tinju. Namun, serangan tersebut tetap tidak berhasil melukai Ladybug."
       },
       {
         "id": "p4",
-        "text": "\"Jadi, kau yang telah mengalahkan Markson,\" kata Koten dengan suara yang dalam dan penuh kebencian. \"Dia adalah salah satu prajuritku yang paling setia. Aku akan menghancurkanmu untuk membalas dendamnya.\""
+        "text": "<br>"
       },
       {
         "id": "p5",
-        "text": "Baydar menatap Koten dengan tenang. \"Aku tidak peduli siapa kau. Jika kau menghalangi jalanku, aku akan mengalahkanmu seperti yang lain,\" jawabnya tegas. Pertarungan pun dimulai — Baydar melawan Raja Iblis Primordial."
+        "text": "Ladybug menyeringai. \"Kalian benar-benar bodoh jika berpikir bisa mengalahkanku.\""
       },
       {
         "id": "p6",
-        "text": "Menggunakan kekuatan dari skill SSS+ \"Loli Hunter\", Baydar memfokuskan energinya dan mengaktifkan Battle Trance. Dengan tubuh yang dikuatkan, Baydar meluncur maju dan mengeluarkan serangan terbaiknya, Melodi Etam, yang memanggil petir dari gitar suci miliknya untuk menghantam Koten."
+        "text": "<br>"
       },
       {
         "id": "p7",
-        "text": "Petir yang kuat menghantam Koten, membuatnya terkejut dan mundur. Namun, Koten hanya tersenyum licik. \"Kau kuat, tapi belum cukup untuk mengalahkanku,\" katanya, lalu mengeluarkan kekuatan penuhnya."
+        "text": "Dia mengayunkan lengannya, melepaskan gelombang serangga yang beracun ke arah Baydar dan Alfriza. Alfriza dengan cepat mengeluarkan teknik pertahanan, menciptakan penghalang energi yang melindungi mereka berdua. Namun, serangan beracun itu merusak penghalang, membuat mereka terpukul mundur."
       },
       {
         "id": "p8",
-        "text": "Pertarungan berlangsung sengit. Baydar menggunakan seluruh kemampuannya — Iron Skin, Shadow Fang, dan Predator Instinct — namun Koten tetap terlalu kuat. Pukulan terakhir Koten membuat Baydar terhempas ke tanah, tubuhnya terasa remuk."
+        "text": "<br>"
       },
       {
         "id": "p9",
-        "text": "Tepat sebelum serangan terakhir Koten mengenai Baydar, sebuah portal tiba-tiba muncul dan menarik Baydar masuk, menyelamatkannya dari kematian. Baydar terjatuh di tempat yang asing dengan tubuh terluka parah. Sebuah notifikasi muncul: \"Anda telah dikalahkan oleh Primordial Demon King Koten. Pertahankan tekad Anda dan latihlah diri Anda lebih keras.\""
+        "text": "Dengan napas terengah-engah, Baydar berusaha bangkit kembali. \"Aku tidak bisa menyerah di sini,\" gumamnya dengan tekad bulat."
       },
       {
         "id": "p10",
-        "text": "Baydar tergeletak di tanah, merasakan sakit yang luar biasa. Namun, di dalam hatinya, api tekad berkobar semakin kuat. \"Koten, aku bersumpah akan mengalahkanmu lain kali. Aku akan menjadi lebih kuat,\" ucapnya lemah namun penuh tekad. Perjalanan Baydar untuk menjadi dewa PAUD dan membalas dendam kepada Koten baru saja dimulai."
+        "text": "<br>"
+      },
+      {
+        "id": "p11",
+        "text": "Diam-diam, Baydar mengumpulkan kekuatannya dan melepaskan jurus Guitar Blast. Sebuah energi besar menghantam Ladybug, menghancurkan sebagian besar tubuhnya. Namun, ketika Baydar mengira mereka berhasil, ribuan serangga muncul kembali, membentuk tubuh Ladybug kembali."
+      },
+      {
+        "id": "p12",
+        "text": "<br>"
+      },
+      {
+        "id": "p13",
+        "text": "\"Kalian tidak akan pernah bisa membunuhku,\" tawa Ladybug menggema. Dia melepaskan ribuan serangga beracun ke arah Baydar dan Alfriza, membuat mereka lumpuh. Saat Ladybug hendak menghabisi mereka, sebuah tembakan tepat mengenainya. Rupanya itu adalah A-Kill, yang datang untuk membantu Kahima-nya."
+      },
+      {
+        "id": "p14",
+        "text": "<br>"
+      },
+      {
+        "id": "p15",
+        "text": "T.I.O. menganalisa Ladybug dan menemukan bahwa tubuhnya terdiri dari ribuan serangga yang terus beregenerasi, tetapi ada satu kelemahan: sang ratu serangga yang merupakan kunci dari regenerasinya. Jika sang ratu serangga terbunuh, Ladybug tidak akan bisa beregenerasi lagi."
+      },
+      {
+        "id": "p16",
+        "text": "<br>"
+      },
+      {
+        "id": "p17",
+        "text": "\"Walau kalian tahu kelemahanku, aku akan tetap membunuh kalian,\" kata Ladybug dengan suara mencemooh."
+      },
+      {
+        "id": "p18",
+        "text": "<br>"
+      },
+      {
+        "id": "p19",
+        "text": "Baydar dan Alfriza kemudian berencana untuk menjadi pengalih perhatian sementara A-Kill akan menyerang dari belakang. Pertarungan berlanjut dengan intensitas tinggi. Di tengah kesibukan, A-Kill mengeluarkan sebuah amplifier speaker yang kemudian berubah menjadi canon blaster besar."
+      },
+      {
+        "id": "p20",
+        "text": "<br>"
+      },
+      {
+        "id": "p21",
+        "text": "\"Kalau begitu, kami akan menghancurkanmu sampai berkeping-keping,\" kata A-Kill sambil mengarahkan blasternya."
+      },
+      {
+        "id": "p22",
+        "text": "<br>"
+      },
+      {
+        "id": "p23",
+        "text": "Baydar dan Alfriza mengalihkan perhatian Ladybug dengan serangan bertubi-tubi. Baydar melepaskan serangkaian pukulan cepat dan mengaktifkan kekuatan Loli Hunter yang telah berevolusi menjadi Loli Lord. Kekuatan void/dark energy mulai merasuki tubuhnya, memberikan tambahan kekuatan. Dengan kecepatan yang meningkat, Baydar berhasil mengunci Ladybug dengan bayangan tangan gelapnya, mengikat tubuhnya kuat-kuat."
+      },
+      {
+        "id": "p24",
+        "text": "<br>"
+      },
+      {
+        "id": "p25",
+        "text": "Alfriza kemudian melayangkan tinju demi tinju dengan kekuatan penuh. Tinju Pembunuh Dewa yang ditingkatkan oleh aura kuat menghantam Ladybug berkali-kali. Namun, Ladybug terus pulih kembali dengan cepat."
+      },
+      {
+        "id": "p26",
+        "text": "<br>"
+      },
+      {
+        "id": "p27",
+        "text": "\"A-Kill, sekarang!\" teriak Baydar."
+      },
+      {
+        "id": "p28",
+        "text": "<br>"
+      },
+      {
+        "id": "p29",
+        "text": "Sebuah serangan proyektil berenergi besar mengarah ke Ladybug, menghanguskan seluruh tubuhnya. T.I.O. mengonfirmasi bahwa Ladybug dan ratu serangga di tubuhnya telah mati, dipastikan ia tidak akan kembali."
+      },
+      {
+        "id": "p30",
+        "text": "<br>"
+      },
+      {
+        "id": "p31",
+        "text": "Setelah pertarungan selesai, Baydar yang masih lemah kembali ke kosnya. Sesampainya di depan pintu, dia melihat sebuah amplop merah. Dengan penasaran, Baydar membukanya. Begitu dia membaca isi amplop tersebut, tiba-tiba kepalanya berputar, dan dia pingsan."
+      },
+      {
+        "id": "p32",
+        "text": "<br>"
+      },
+      {
+        "id": "p33",
+        "text": "Saat tersadar, Baydar mendapati dirinya di sebuah tempat yang terlihat seperti lobi hotel mewah. Seorang wanita elegan muncul, menyuguhkan teh kepadanya."
+      },
+      {
+        "id": "p34",
+        "text": "<br>"
+      },
+      {
+        "id": "p35",
+        "text": "\"Tenang saja, tunggulah sebentar,\" kata wanita itu dengan senyum ramah."
+      },
+      {
+        "id": "p36",
+        "text": "<br>"
+      },
+      {
+        "id": "p37",
+        "text": "Tak lama kemudian, seorang pria tua keluar dari pintu. Pria itu mengenakan jaket biru tua, rambutnya hitam panjang dan dikuncir kuda, dengan bekas luka sayatan di matanya. Aura kekuatan yang kuat terpancar darinya, dan Baydar merasa tidak asing dengan pria itu."
+      },
+      {
+        "id": "p38",
+        "text": "<br>"
+      },
+      {
+        "id": "p39",
+        "text": "\"Pak Presiden, dia sudah bangun,\" kata wanita yang ternyata bernama Michele."
+      },
+      {
+        "id": "p40",
+        "text": "<br>"
+      },
+      {
+        "id": "p41",
+        "text": "Pria itu duduk di depan Baydar dan berkata, \"Kamu mungkin masih bingung dengan situasi ini biarkan aku memperkenalkan diriku. Aku Rafi presiden Organisasi PAUD dunia, Senang bertemu denganmu, diriku yang masih muda.\""
+      },
+      {
+        "id": "p42",
+        "text": "<br>"
+      },
+      {
+        "id": "p43",
+        "text": "Baydar memandang pria itu dengan kebingungan yang mendalam. \"Apa maksudmu? Siapa kau sebenarnya?\""
+      },
+      {
+        "id": "p44",
+        "text": "<br>"
+      },
+      {
+        "id": "p45",
+        "text": "Cerita pun menggantung di sini, meninggalkan Baydar dalam keadaan bingung dan penuh pertanyaan yang belum terjawab."
+      },
+      {
+        "id": "p46",
+        "text": "<br>"
       }
     ],
-    "createdAt": "2026-07-22T17:41:11.133Z",
-    "updatedAt": "2026-07-23T19:00:00.000Z"
+    "createdAt": "2026-07-23T14:04:39.434Z",
+    "updatedAt": "2026-07-23T14:04:39.459Z"
+  },
+  "1784815526289": {
+    "id": "1784815526289",
+    "title": "Heaven n Hell",
+    "number": 11,
+    "bannerUrl": "",
+    "content": [
+      {
+        "id": "p1",
+        "text": "\"Senang bertemu denganmu, diriku yang masih muda,\" katanya, membuat Baydar bingung. Pria itu adalah Rafi, presiden PAUD masa kini."
+      },
+      {
+        "id": "p2",
+        "text": "<br>"
+      },
+      {
+        "id": "p3",
+        "text": "Baydar terdiam, otaknya mencoba memproses apa yang baru saja didengarnya. \"Apa maksudmu, dirimu yang masih muda?\""
+      },
+      {
+        "id": "p4",
+        "text": "<br>"
+      },
+      {
+        "id": "p5",
+        "text": "Rafi tersenyum dan mulai menjelaskan. \"Aku adalah dirimu dari masa depan, Baydar. Setelah bertahun-tahun menjalani hidup sebagai mahasiswa dan berjuang untuk menjadi dewa PAUD, aku akhirnya mencapai puncak kekuatanku. Namun,dimasa depan aku gagal melindungi bumi karena para The Old  God yang misterius muncul.mereka adalah sekumpulan mahkluk yg kuat dan dipimpin oleh dewa bernama Falah the Fallen god. Seorang dewa kekacauan yg bertujuan menghancurkan umat manusia. Diakhir perang itu aku berjanji demi menyelamatkan dunia, aku melakukan perjalanan kembali ke masa lalu.\"demi menyiapkan segalanya agar bisa melawan The fallen god"
+      },
+      {
+        "id": "p6",
+        "text": "<br>"
+      },
+      {
+        "id": "p7",
+        "text": "Baydar masih terlihat bingung. \"Mengapa kau melakukan itu? Apa tujuanmu?\""
+      },
+      {
+        "id": "p8",
+        "text": "<br>"
+      },
+      {
+        "id": "p9",
+        "text": "Rafi melanjutkan, \"Aku harus memastikan bahwa dirimu yang masih muda siap menghadapi semua itu. Selain itu, aku harus membentuk organisasi PAUD dan menjaga kestabilan dunia dari balik bayang-bayang.\""
+      },
+      {
+        "id": "p10",
+        "text": "<br>"
+      },
+      {
+        "id": "p11",
+        "text": "Baydar merasakan beban yang luar biasa dari penjelasan itu. \"Jadi, semua yang kulakukan hingga kini adalah bagian dari rencanamu?\""
+      },
+      {
+        "id": "p12",
+        "text": "<br>"
+      },
+      {
+        "id": "p13",
+        "text": "\"Sebagian besar, ya. Tapi ingat, Baydar, kau tetap memiliki kebebasan untuk menentukan jalanmu sendiri. Aku hanya memberikan arahan dan membantu di balik layar,\" jawab Rafi dengan bijaksana."
+      },
+      {
+        "id": "p14",
+        "text": "<br>"
+      },
+      {
+        "id": "p15",
+        "text": "Baydar merenung sejenak, memikirkan semua peristiwa yang telah dialaminya. Dia menyadari bahwa perjuangannya belum berakhir, dan ada lebih banyak yang harus dia pelajari dan lakukan untuk mencapai tujuannya."
+      },
+      {
+        "id": "p16",
+        "text": "<br>"
+      },
+      {
+        "id": "p17",
+        "text": "Namun, tiba-tiba, sebuah bayangan cepat melintas dan Rafi terjatuh dengan pisau tertancap di punggungnya. Darah mengalir dari luka yang fatal."
+      },
+      {
+        "id": "p18",
+        "text": "<br>"
+      },
+      {
+        "id": "p19",
+        "text": "\"Rafi!\" Baydar berteriak, mencoba menolongnya."
+      },
+      {
+        "id": "p20",
+        "text": "<br>"
+      },
+      {
+        "id": "p21",
+        "text": "Rafi, dengan napas yang tersengal-sengal, berkata, \"Baydar... kau harus melanjutkan perjuangan kita... Jangan biarkan mereka menang...\""
+      },
+      {
+        "id": "p22",
+        "text": "<br>"
+      },
+      {
+        "id": "p23",
+        "text": "Sebelum Rafi bisa mengatakan lebih banyak, Koten muncul dari bayangan, dengan senyum licik di wajahnya. \"Aku mempunyai seorang mata-mata, wahai presiden.\""
+      },
+      {
+        "id": "p24",
+        "text": "<br>"
+      },
+      {
+        "id": "p25",
+        "text": "Rafi menatap dengan kebingungan saat Michele, yang selama ini setia mendampingi nya , berdiri di samping Koten. \"Maafkan aku, Rafi,\" kata Michele. \"Tapi aku diperintahkan untuk mengawasimu sejak awal. Koten tahu bahwa Rafi memiliki pengetahuan tentang masa depan. Namun, ketika kami mengetahui bahwa Rafi adalah versi tua dari baydar, target kami berubah.\""
+      },
+      {
+        "id": "p26",
+        "text": "<br>"
+      },
+      {
+        "id": "p27",
+        "text": "Baydar marah, \"Pengkhianat!\""
+      },
+      {
+        "id": "p28",
+        "text": "<br>"
+      },
+      {
+        "id": "p29",
+        "text": "Koten tertawa, \"Kini aku hanya mengincar dirimu, Baydar.\""
+      },
+      {
+        "id": "p30",
+        "text": "<br>"
+      },
+      {
+        "id": "p31",
+        "text": "Pertarungan sengit pun dimulai. Baydar melawan Koten dengan seluruh kekuatannya, namun kekuatan Koten terlalu besar. Dalam keadaan terdesak, Rafi yang sekarat memberikan kekuatan terakhirnya kepada Baydar."
+      },
+      {
+        "id": "p32",
+        "text": "<br>"
+      },
+      {
+        "id": "p33",
+        "text": "\"Ambillah kekuatanku, Baydar. Kau adalah harapan terakhir kita,\" bisik Rafi sebelum menghembuskan napas terakhirnya."
+      },
+      {
+        "id": "p34",
+        "text": "<br>"
+      },
+      {
+        "id": "p35",
+        "text": "Baydar merasakan kekuatan yang luar biasa mengalir dalam dirinya. Semua skill-nya berevolusi menjadi yang paling tinggi, menjadi ultimate. Skill 'Loli Hunter' berevolusi menjadi 'Loli King', memberikan Baydar kemampuan untuk meningkatkan kekuatannya secara drastis. Dengan tekad yang bulat dan amarah yang membara, Baydar bangkit kembali dan menghadapi Koten dengan kekuatan barunya."
+      },
+      {
+        "id": "p36",
+        "text": "<br>"
+      },
+      {
+        "id": "p37",
+        "text": "#### Skill Ultimate Baydar:"
+      },
+      {
+        "id": "p38",
+        "text": "- Loli King: Meningkatkan semua atribut Baydar secara drastis."
+      },
+      {
+        "id": "p39",
+        "text": "- Symphony of Destruction: Serangan sihir berirama yang menghasilkan gelombang suara mematikan."
+      },
+      {
+        "id": "p40",
+        "text": "- Requiem Rebirth: Kemampuan penyembuhan instan yang dapat menghidupkan kembali dari kondisi sekarat dengan nada penyembuhan."
+      },
+      {
+        "id": "p41",
+        "text": "- Guitar Blast: Serangan sonik berdaya besar yang bisa menghancurkan apa saja di jalurnya, dihasilkan dari petikan gitar energi."
+      },
+      {
+        "id": "p42",
+        "text": "- Shadow Phantom: Membuat ilusi dirinya yang berirama untuk membingungkan musuh."
+      },
+      {
+        "id": "p43",
+        "text": "<br>"
+      },
+      {
+        "id": "p44",
+        "text": "Serangan demi serangan yang dilancarkan Baydar kini lebih kuat dan tepat sasaran. Koten mulai terdesak, dan dengan jurus pamungkasnya, Baydar mengeluarkan serangan terakhir yang memojokkan Koten."
+      },
+      {
+        "id": "p45",
+        "text": "<br>"
+      },
+      {
+        "id": "p46",
+        "text": "Koten, yang merasakan kekuatan Baydar, memutuskan untuk melepaskan wujud terkuatnya, Wujud LO. Dalam wujud ini, Koten memiliki kemampuan untuk mengendalikan pikiran orang-orang di sekitarnya, membuat mereka bahkan berjoget flashmob sesuai kehendaknya. Namun, yang paling mengerikan adalah pedang suci pembelah dunia yang ia pegang, Pedang FUNTASTIC."
+      },
+      {
+        "id": "p47",
+        "text": "<br>"
+      },
+      {
+        "id": "p48",
+        "text": "Seluruh gedung tempat mereka bertarung mulai hancur akibat bentrokan kekuatan mereka yang epik. Baydar menggunakan setiap skill ultimate yang dimilikinya untuk menghadapi Koten, namun wujud LO Koten terlalu kuat."
+      },
+      {
+        "id": "p49",
+        "text": "<br>"
+      },
+      {
+        "id": "p50",
+        "text": "Baydar menggunakan Symphony of Destruction untuk menyerang Koten dengan gelombang suara mematikan, namun Koten menghindar dengan mudah. Koten membalas dengan serangan dari Pedang FUNTASTIC, memotong gedung menjadi dua dan mengancam nyawa Baydar."
+      },
+      {
+        "id": "p51",
+        "text": "<br>"
+      },
+      {
+        "id": "p52",
+        "text": "Baydar kemudian mengaktifkan Requiem Rebirth, menyembuhkan luka-lukanya dengan nada penyembuhan dan kembali bertarung dengan semangat baru. Dengan Shadow Phantom, Baydar menciptakan ilusi dirinya yang berirama, mengelabui Koten dan menyerang dari belakang dengan Guitar Blast."
+      },
+      {
+        "id": "p53",
+        "text": "<br>"
+      },
+      {
+        "id": "p54",
+        "text": "Serangan sonik itu menghantam Koten dengan keras, menyebabkan kerusakan yang signifikan. Namun, Koten masih berdiri dengan penuh kebencian. Baydar menyadari bahwa satu-satunya cara untuk mengalahkan Koten adalah dengan menggunakan kekuatan Rafi yang telah ditransfer kepadanya."
+      },
+      {
+        "id": "p55",
+        "text": "<br>"
+      },
+      {
+        "id": "p56",
+        "text": "Dengan seluruh kekuatan yang ia miliki, Baydar menggabungkan semua jurus pamungkasnya menjadi satu serangan besar. Dia melompat ke udara dan berteriak, \"Ini untuk Rafi dan semua yang telah kau sakiti!\""
+      },
+      {
+        "id": "p57",
+        "text": "<br>"
+      },
+      {
+        "id": "p58",
+        "text": "Energi besar berkumpul di tangan Baydar, menciptakan bola cahaya yang sangat terang. Dengan satu teriakan terakhir, Baydar melepaskan serangan itu ke arah Koten."
+      },
+      {
+        "id": "p59",
+        "text": "<br>"
+      },
+      {
+        "id": "p60",
+        "text": "Ledakan besar terjadi, menghancurkan seluruh gedung dan menciptakan kawah besar di tempat mereka bertarung. Saat debu dan asap mereda, Baydar berdiri dengan napas terengah-engah, sementara tubuh Koten tergeletak tak berdaya."
+      },
+      {
+        "id": "p61",
+        "text": "<br>"
+      },
+      {
+        "id": "p62",
+        "text": "Koten, dengan napas terakhirnya, berbisik, \"Ini belum berakhir, Baydar. Akan selalu ada ancaman yang lebih besar.\""
+      },
+      {
+        "id": "p63",
+        "text": "<br>"
+      },
+      {
+        "id": "p64",
+        "text": "Baydar menatap tubuh Koten yang tak bergerak dan merasakan kekosongan di dalam hatinya. Dia tahu bahwa pertarungan ini hanyalah awal dari perjalanan panjang yang harus dia tempuh."
+      },
+      {
+        "id": "p65",
+        "text": "<br>"
+      },
+      {
+        "id": "p66",
+        "text": "Namun, dalam hatinya, dia merasa lebih kuat dan lebih siap menghadapi apa pun yang datang di masa depan. Baydar mengingat pesan terakhir Rafi dan bertekad untuk melindungi dunia ini dari ancaman apa pun yang datang."
+      },
+      {
+        "id": "p67",
+        "text": "<br>"
+      },
+      {
+        "id": "p68",
+        "text": "Namun, sebelum ia bisa berpikir lebih jauh, Michele muncul dan dengan cepat membantu Koten yang sekarat kabur. Baydar hanya bisa melihat mereka pergi, merasa kekuatan yang baru didapatnya belum cukup untuk mencegah itu."
+      },
+      {
+        "id": "p69",
+        "text": "<br>"
+      },
+      {
+        "id": "p70",
+        "text": "Dengan tekad yang lebih kuat dari sebelumnya, Baydar berjalan perlahan keluar dari reruntuhan gedung, siap menghadapi tantangan berikutnya. Di dalam hatinya, ia tahu bahwa pertarungan ini baru permulaan dari sesuatu yang jauh lebih besar."
+      },
+      {
+        "id": "p71",
+        "text": "<br>"
+      }
+    ],
+    "createdAt": "2026-07-23T14:05:26.291Z",
+    "updatedAt": "2026-07-23T14:05:26.322Z"
+  },
+  "1784815583124": {
+    "id": "1784815583124",
+    "title": "Siapa wanita itu baydar?",
+    "number": 12,
+    "bannerUrl": "",
+    "content": [
+      {
+        "id": "p1",
+        "text": "Setelah pertempuran sengit dengan Raja Iblis Koten dan pengungkapan mengejutkan dari Rafi, Baydar kembali menjalani kehidupan mahasiswanya di kampus. Ia merasa lelah baik mental maupun fisik, dan memutuskan untuk memanfaatkan waktu ini untuk beristirahat dan refreshing."
+      },
+      {
+        "id": "p2",
+        "text": "<br>"
+      },
+      {
+        "id": "p3",
+        "text": "Di kampus, Baydar sering bermain gitar di taman, mencoba menenangkan pikiran dan menghilangkan stres. Alunan gitarnya yang menenangkan sering menarik perhatian mahasiswa lain yang melewati taman. Di sana, ia sering diikuti oleh Alfriza yang memaksanya masuk ke dalam himpunan mahasiswa. Ini sudah menjadi rutinitas sehari-hari bagi Baydar, di mana Alfriza terus-menerus mengganggunya dengan ajakan yang tak henti-hentinya."
+      },
+      {
+        "id": "p4",
+        "text": "<br>"
+      },
+      {
+        "id": "p5",
+        "text": "\"Baydar, kau tahu, himpunan kita membutuhkan orang sepertimu,\" ujar Alfriza suatu hari sambil duduk di sebelah Baydar yang sedang memetik gitarnya."
+      },
+      {
+        "id": "p6",
+        "text": "<br>"
+      },
+      {
+        "id": "p7",
+        "text": "Baydar tersenyum tipis, \"Aku hanya ingin bermain musik dan menikmati hari, Alfriza. Mungkin nanti.\""
+      },
+      {
+        "id": "p8",
+        "text": "<br>"
+      },
+      {
+        "id": "p9",
+        "text": "Sementara itu, di tempat lain, Koten yang berhasil kabur dari pertarungan dengan Baydar sedang berusaha memulihkan diri. Ia menggelar Rapat Besar (Rabes) dengan para Raja Iblis lainnya untuk membahas rencana besar mereka. Di antara para Raja Iblis yang hadir, ada seseorang bernama Rafli, sang Raja Iblis Starboy."
+      },
+      {
+        "id": "p10",
+        "text": "<br>"
+      },
+      {
+        "id": "p11",
+        "text": "Rafli menghina Koten yang kalah oleh seorang manusia, meyakinkan bahwa dirinya pasti bisa mengalahkan Baydar. Koten, meskipun marah, hanya bisa diam karena kekalahannya adalah fakta yang tak bisa disangkal. Rafli lalu berkata, \"Rencana kita untuk membangkitkan Dewa Kekacauan akan segera dimulai.\""
+      },
+      {
+        "id": "p12",
+        "text": "<br>"
+      },
+      {
+        "id": "p13",
+        "text": "Koten mengiyakan, \"Aku mengumpulkan kalian di sini untuk memulai rencana besar kita membangkitkan Falah, The Fallen God.\""
+      },
+      {
+        "id": "p14",
+        "text": "<br>"
+      },
+      {
+        "id": "p15",
+        "text": "Dahulu, Falah adalah salah satu dewa iblis kuno yang tinggi, namun karena hidup terlalu lama, mentalnya menjadi tidak stabil. Ia mengalami depresi berat hingga puncaknya mengamuk dan hampir menghancurkan seluruh umat manusia. Aksinya dihentikan oleh BPH, dan para dewa lalu menggelar pemungutan suara yang bernama KPU dan mereka lalu menghukum Falah dengan menyegelnya selamanya akibat dosa yang diperbuatnya."
+      },
+      {
+        "id": "p16",
+        "text": "<br>"
+      },
+      {
+        "id": "p17",
+        "text": "Koten dan para Raja Iblis berencana untuk membangkitkan Falah dan menguasai seluruh himpunan mahasiswa di dunia."
+      },
+      {
+        "id": "p18",
+        "text": "<br>"
+      },
+      {
+        "id": "p19",
+        "text": "Kembali ke kehidupan Baydar, acara Pengabdian Masyarakat (Pengmas) yang dilakukan seluruh angkatan 23 akan dimulai. Baydar mendapat bagian untuk pengmas di Pantai Pertiwi, selain membersihkan sampah, ia juga bertugas di divisi kesehatan."
+      },
+      {
+        "id": "p20",
+        "text": "<br>"
+      },
+      {
+        "id": "p21",
+        "text": "Saat ia memungut sampah, tiba-tiba seorang wanita jatuh pingsan. Dengan kecepatannya, Baydar berhasil menangkap wanita itu sebelum ia jatuh ke tanah. Teman-teman wanita itu panik, dan Baydar membopongnya ke tempat sepi di pinggiran pantai agar bisa beristirahat. Saat panitia lain panik mencari obat, Baydar diam-diam menyembuhkan wanita itu dengan salah satu skill-nya. Wanita itu terbangun dan terkejut melihat dirinya tertidur di pangkuan Baydar."
+      },
+      {
+        "id": "p22",
+        "text": "<br>"
+      },
+      {
+        "id": "p23",
+        "text": "Baydar tersenyum dan bertanya, \"Apa kau tidak apa-apa?\""
+      },
+      {
+        "id": "p24",
+        "text": "<br>"
+      },
+      {
+        "id": "p25",
+        "text": "Wanita yang masih bingung itu berkata, \"Tubuhku terasa lelah, mungkin karena aku belum sarapan dari pagi.\""
+      },
+      {
+        "id": "p26",
+        "text": "<br>"
+      },
+      {
+        "id": "p27",
+        "text": "Baydar lalu mengajaknya untuk makan. Awalnya wanita itu menolak, tetapi setelah mendengar Baydar mengatakan bahwa jika ia tidak makan, teman-temannya akan khawatir lagi, ia akhirnya setuju. Mereka lalu makan mie ayam di warung pantai."
+      },
+      {
+        "id": "p28",
+        "text": "<br>"
+      },
+      {
+        "id": "p29",
+        "text": "Di warung pantai, mereka berkenalan. Wanita itu bernama Jessica Sitompul dari prodi arsitektur. Jessica adalah gadis cantik sedikit tomboi dengan rambut panjang bergelombang di ikat dan poni di depan. Kulitnya putih bersih dengan sedikit makeup yang mempercantiknya, dan tubuhnya yang tinggi dan bagus membuat para pria lain langsung terpukau ketika berpapasan dengannya."
+      },
+      {
+        "id": "p30",
+        "text": "<br>"
+      },
+      {
+        "id": "p31",
+        "text": "Jadi, apa yang membuatmu tertarik dengan arsitektur?\" tanya Baydar.\"Aku selalu suka mendesain dan membangun sesuatu. Melihat hasil akhir dari kerja keras itu memberikan kepuasan tersendiri,\" jawab Jessica sambil tersenyum."
+      },
+      {
+        "id": "p32",
+        "text": "<br>"
+      },
+      {
+        "id": "p33",
+        "text": "\"Dan kau, Baydar? Apa yang membuatmu tertarik pada musik?\"\""
+      },
+      {
+        "id": "p34",
+        "text": "<br>"
+      },
+      {
+        "id": "p35",
+        "text": "Musik adalah cara terbaikku untuk mengekspresikan perasaan. Setiap nada, setiap melodi, semuanya adalah bagian dari diriku,\" jawab Baydar.Jessica tampak terkejut dan senang, \"Aku juga suka bermain gitar! Mungkin kita bisa bermain bersama kapan-kapan?”"
+      },
+      {
+        "id": "p36",
+        "text": "<br>"
+      },
+      {
+        "id": "p37",
+        "text": "Mereka banyak mengobrol dan ternyata chemistry mereka lumayan cocok. Baydar merasa nyaman berbicara dengan Jessica, dan Jessica pun merasa senang dengan perhatian yang diberikan Baydar. Setelah makan, mereka berencana untuk kembali ke pantai, namun tiba-tiba mereka dihadang oleh seseorang."
+      },
+      {
+        "id": "p38",
+        "text": "<br>"
+      },
+      {
+        "id": "p39",
+        "text": "Rupanya itu adalah Anisa, yang telah lama mengawasi mereka makan berduaan. Anisa tampak cemburu dan bertanya kepada Baydar, \"Apa wanita cantik di sampingmu ini temanmu? Aku baru pertama kali melihatnya.\""
+      },
+      {
+        "id": "p40",
+        "text": "<br>"
+      },
+      {
+        "id": "p41",
+        "text": "Baydar lalu menceritakan semuanya. Anisa berkata, \"Oh, begitu ya... Jadi kamu ngajak dia makan, bilang aja itu cuman modus.\""
+      },
+      {
+        "id": "p42",
+        "text": "<br>"
+      },
+      {
+        "id": "p43",
+        "text": "Baydar yang kebingungan, kemudian terbata-bata ingin menjelaskannya. Jessica berkata, \"Baydar, dia ini siapa? Pacarmu? Kalau bukan, kenapa dia marah dan kesal?\""
+      },
+      {
+        "id": "p44",
+        "text": "<br>"
+      },
+      {
+        "id": "p45",
+        "text": "Baydar, yang terlanjur berkata bahwa hubungannya dengan Anisa hanya sebatas teman, melihat Anisa segera pergi dengan raut kesal di wajahnya. Baydar ingin mengejarnya, tetapi Jessica mengajaknya kembali ke pantai lagi."
+      },
+      {
+        "id": "p46",
+        "text": "<br>"
+      },
+      {
+        "id": "p47",
+        "text": "\"Biarkan dia, Baydar. Kita lanjutkan kegiatan kita,\" kata Jessica sambil menarik tangan Baydar."
+      },
+      {
+        "id": "p48",
+        "text": "<br>"
+      },
+      {
+        "id": "p49",
+        "text": "Mereka lalu kembali membersihkan pantai hingga sore hari. Acara pengmas selesai dengan sukses. Sepanjang kegiatan, Baydar dan Jessica semakin akrab. Baydar dengan sifatnya yang ramah dan Jessica yang terbuka membuat mereka semakin nyaman satu sama lain."
+      },
+      {
+        "id": "p50",
+        "text": "<br>"
+      },
+      {
+        "id": "p51",
+        "text": "Saat membersihkan pantai, Jessica terus tertawa dengan candaan Baydar. Baydar menunjukkan beberapa trik gitar yang bisa membuat suara-suara lucu, dan Jessica tertawa terbahak-bahak. Mereka juga saling berbagi cerita tentang kehidupan kampus dan mimpi-mimpi mereka di masa depan."
+      },
+      {
+        "id": "p52",
+        "text": "<br>"
+      },
+      {
+        "id": "p53",
+        "text": "Saat matahari mulai tenggelam, mereka duduk di pinggir pantai, menikmati keindahan senja. Jessica bertanya, \"Baydar, apa yang membuatmu tertarik pada musik?\""
+      },
+      {
+        "id": "p54",
+        "text": "<br>"
+      },
+      {
+        "id": "p55",
+        "text": "Baydar tersenyum dan menjawab, \"Musik adalah cara terbaikku untuk mengekspresikan perasaan. Setiap nada, setiap melodi, semuanya adalah bagian dari diriku.\""
+      },
+      {
+        "id": "p56",
+        "text": "<br>"
+      },
+      {
+        "id": "p57",
+        "text": "Jessica menatap Baydar dengan kagum. \"Kau benar-benar berbakat, Baydar. Aku senang bisa mengenalmu.\""
+      },
+      {
+        "id": "p58",
+        "text": "<br>"
+      },
+      {
+        "id": "p59",
+        "text": "Baydar merasakan hangat di hatinya. \"Aku juga senang bisa mengenalmu, Jessica.\""
+      },
+      {
+        "id": "p60",
+        "text": "<br>"
+      },
+      {
+        "id": "p61",
+        "text": "Di tengah perjalanan pulang, Jessica berkata, \"Kau tahu, Baydar, aku benar-benar ingin bermain gitar bersamamu. Bagaimana kalau kita buat band kecil-kecilan? Hanya untuk bersenang-senang.\""
+      },
+      {
+        "id": "p62",
+        "text": "Baydar mengangguk antusias, \"Itu ide yang bagus! Kita bisa mulai latihan akhir pekan ini. Aku tahu tempat yang bagus untuk latihan.\""
+      },
+      {
+        "id": "p63",
+        "text": "Jessica tersenyum, \"Aku tak sabar untuk itu. Aku yakin kita akan menjadi tim yang hebat.\""
+      },
+      {
+        "id": "p64",
+        "text": "<br>"
+      },
+      {
+        "id": "p65",
+        "text": "Jessica tersenyum, \"Aku juga berharap begitu, Baydar. Sampai jumpa lagi.\""
+      },
+      {
+        "id": "p66",
+        "text": "<br>"
+      },
+      {
+        "id": "p67",
+        "text": "Di tempat lain, Koten yang terluka parah sedang dirawat oleh Michele. Dengan kesetiaannya yang tak tergoyahkan, Michele membantu Koten pulih sambil merencanakan langkah berikutnya. Koten tahu bahwa Baydar kini lebih kuat, dan ia harus lebih berhati-hati dalam setiap langkah yang diambil."
+      },
+      {
+        "id": "p68",
+        "text": "<br>"
+      },
+      {
+        "id": "p69",
+        "text": "Baydar, tanpa mengetahui ancaman yang masih mengintai, kembali ke kehidupannya dengan semangat baru dan harapan akan masa depan yang lebih cerah. Namun, di balik semua itu, ia tahu bahwa pertarungannya belum berakhir dan masih banyak tantangan yang harus dihadapinya."
+      },
+      {
+        "id": "p70",
+        "text": "<br>"
+      }
+    ],
+    "createdAt": "2026-07-23T14:06:23.127Z",
+    "updatedAt": "2026-07-23T14:06:23.152Z"
+  },
+  "1784815671194": {
+    "id": "1784815671194",
+    "title": "Itk Openhouse",
+    "number": 13,
+    "bannerUrl": "",
+    "content": [
+      {
+        "id": "p1",
+        "text": "Suatu Festival Pameran untuk memperkenalkan masing masing jurusan bernama ITK Open House akan segera dimulai, Baydar berdiri di depan stand prodi Informatika, mengenakan almamater dengan wajah yang ceria. Di depannya, poster besar dan berbagai demo IOT dan Games menarik menghiasi stand tersebut. Pengunjung mulai berdatangan, menambah semarak acara ITK Open House."
+      },
+      {
+        "id": "p2",
+        "text": "<br>"
+      },
+      {
+        "id": "p3",
+        "text": "Baydar dengan antusias menjelaskan proyek-proyek yang dipamerkan kepada para pengunjung. Seorang anak kecil dengan mata berbinar menatap sebuah robot yang bergerak mengikuti perintah suara."
+      },
+      {
+        "id": "p4",
+        "text": "<br>"
+      },
+      {
+        "id": "p5",
+        "text": "Anak Kecil: \"Kak, robotnya bisa ngomong gak?\""
+      },
+      {
+        "id": "p6",
+        "text": "<br>"
+      },
+      {
+        "id": "p7",
+        "text": "Baydar: \"Bisa dong! Lihat ya. Robot, nyalakan lampu!, kalo mau lihat robot lebih besar ada di dalam celana kakak dek\""
+      },
+      {
+        "id": "p8",
+        "text": "<br>"
+      },
+      {
+        "id": "p9",
+        "text": "Orang tua anak itu tersenyum sambil berterima kasih kepada Baydar."
+      },
+      {
+        "id": "p10",
+        "text": "<br>"
+      },
+      {
+        "id": "p11",
+        "text": "Setelah giliran jaga standnya selesai, Baydar berkeliling ke stand-stand jurusan lain. Ia bertemu dengan Jessica di stand Arsitektur. Jessica sedang menjelaskan maket bangunan kepada sekelompok pengunjung."
+      },
+      {
+        "id": "p12",
+        "text": "<br>"
+      },
+      {
+        "id": "p13",
+        "text": "Jessica: \"Oh, hey Baydar! Sudah selesai jaga stand Informatika?\""
+      },
+      {
+        "id": "p14",
+        "text": "<br>"
+      },
+      {
+        "id": "p15",
+        "text": "Baydar: \"Iya, baru saja selesai. Wah, maketnya keren banget! Kamu yang bikin ini?\""
+      },
+      {
+        "id": "p16",
+        "text": "<br>"
+      },
+      {
+        "id": "p17",
+        "text": "Jessica: \"Iya, sama yang lain . Seru juga ternyata bikin maket ini. Mau lihat lebih dekat?\""
+      },
+      {
+        "id": "p18",
+        "text": "<br>"
+      },
+      {
+        "id": "p19",
+        "text": "Mereka berbincang sambil Jessica menjelaskan detail maketnya. Baydar terpukau dengan kreativitas Jessica."
+      },
+      {
+        "id": "p20",
+        "text": "<br>"
+      },
+      {
+        "id": "p21",
+        "text": "Setelah dari stand Arsitektur, Baydar menuju stand Teknik Kelautan di mana Anisa bertugas. Anisa sedang menjelaskan prospek kerja dari jurusan nya ke pengunjung sambil tersenyum ramah."
+      },
+      {
+        "id": "p22",
+        "text": "<br>"
+      },
+      {
+        "id": "p23",
+        "text": "Baydar: \"Hai Anisa, lagi sibuk ya?\""
+      },
+      {
+        "id": "p24",
+        "text": "<br>"
+      },
+      {
+        "id": "p25",
+        "text": "Anisa: \"Hai Baydar! Iya nih. Kamu gimana? Capek jaga stand?\""
+      },
+      {
+        "id": "p26",
+        "text": "<br>"
+      },
+      {
+        "id": "p27",
+        "text": "Baydar: \"Lumayan, tapi seru juga. By the way, kapan kita bisa ngobrol lagi? Lama gak ketemu.\""
+      },
+      {
+        "id": "p28",
+        "text": "<br>"
+      },
+      {
+        "id": "p29",
+        "text": "Anisa: \"Mungkin nanti setelah acara selesai, kita bisa nongkrong bareng.\""
+      },
+      {
+        "id": "p30",
+        "text": "<br>"
+      },
+      {
+        "id": "p31",
+        "text": "Baydar merasakan kehangatan dalam percakapan mereka, membuatnya semakin nyaman berada di dekat Anisa."
+      },
+      {
+        "id": "p32",
+        "text": "<br>"
+      },
+      {
+        "id": "p33",
+        "text": "Baydar melanjutkan perjalanannya dan tiba di stand Himpunan SIKNTL yang dipimpin oleh Alfriza. Alfriza sedang berorasi di depan para pengunjung, menjelaskan visi dan misi himpunannya."
+      },
+      {
+        "id": "p34",
+        "text": "<br>"
+      },
+      {
+        "id": "p35",
+        "text": "Alfriza: \"Kami adalah SIKNTL! Himpunan yang tidak hanya peduli pada akademik, tetapi juga pengembangan diri dan mental! Siapa yang mau bergabung dengan kami?\""
+      },
+      {
+        "id": "p36",
+        "text": "<br>"
+      },
+      {
+        "id": "p37",
+        "text": "Baydar: \"Hey, Alfriza! Semangat banget nih, promosi himpunan.\""
+      },
+      {
+        "id": "p38",
+        "text": "<br>"
+      },
+      {
+        "id": "p39",
+        "text": "Alfriza: \"Baydar! Kamu harus gabung ke kabinetku. Kita butuh orang dengan bakat luar biasa sepertimu.\""
+      },
+      {
+        "id": "p40",
+        "text": "<br>"
+      },
+      {
+        "id": "p41",
+        "text": "Baydar: \"Aku pikir-pikir dulu deh. Himpunanmu seru juga, tapi aku masih sibuk dengan tugas kuliah.\""
+      },
+      {
+        "id": "p42",
+        "text": "<br>"
+      },
+      {
+        "id": "p43",
+        "text": "Mereka tertawa bersama dan melanjutkan berbincang tentang kegiatan-kegiatan seru di himpunan SIKNTL."
+      },
+      {
+        "id": "p44",
+        "text": "<br>"
+      },
+      {
+        "id": "p45",
+        "text": "Di tengah keramaian festival, dua sosok misterius dengan penampilan mencolok menyusup di antara pengunjung. Mereka adalah Fahri, Raja Gunung Tanjakan, dan Star, Raja Bintang dengan kodam kuatnya, Star Platinum."
+      },
+      {
+        "id": "p46",
+        "text": "<br>"
+      },
+      {
+        "id": "p47",
+        "text": "Fahri: \"Ingat rencana kita. Kita harus membuat kekacauan dan menyingkirkan Baydar.\""
+      },
+      {
+        "id": "p48",
+        "text": "<br>"
+      },
+      {
+        "id": "p49",
+        "text": "Star: \"Tenang saja, semuanya sudah diatur. Kita tunggu momen yang tepat.\""
+      },
+      {
+        "id": "p50",
+        "text": "<br>"
+      },
+      {
+        "id": "p51",
+        "text": "Ketika Baydar kembali ke stand Informatika, ia melihat Jessica dan Anisa yang tampaknya sedang bersaing untuk mendapatkan perhatiannya."
+      },
+      {
+        "id": "p52",
+        "text": "<br>"
+      },
+      {
+        "id": "p53",
+        "text": "Jessica: \"Baydar, nanti kamu ikut ke stand kita lagi ya. Kita ada presentasi menarik tentang desain bangunan futuristik.\""
+      },
+      {
+        "id": "p54",
+        "text": "<br>"
+      },
+      {
+        "id": "p55",
+        "text": "Anisa: \"Eh, Baydar. Kalau nanti ada waktu, mampir ke stand kita lagi ya. Kita akan ada demonstrasi tentang kelautan .\""
+      },
+      {
+        "id": "p56",
+        "text": "<br>"
+      },
+      {
+        "id": "p57",
+        "text": "Baydar: \"Ehm... tentu, pasti aku mampir ke dua-duanya.\""
+      },
+      {
+        "id": "p58",
+        "text": "<br>"
+      },
+      {
+        "id": "p59",
+        "text": "Kedua gadis itu saling melirik dengan sedikit cemburu, tetapi tetap tersenyum kepada Baydar."
+      },
+      {
+        "id": "p60",
+        "text": "<br>"
+      },
+      {
+        "id": "p61",
+        "text": "Tiba-tiba, terjadi ledakan kecil di salah satu stand. Orang-orang panik berlarian, membuat suasana festival menjadi kacau."
+      },
+      {
+        "id": "p62",
+        "text": "<br>"
+      },
+      {
+        "id": "p63",
+        "text": "Baydar: \"Apa yang terjadi?!\""
+      },
+      {
+        "id": "p64",
+        "text": "<br>"
+      },
+      {
+        "id": "p65",
+        "text": "Baydar segera berlari menuju sumber kekacauan. Di sana, ia melihat Fahri dan Star yang mulai menyerang pengunjung dengan kekuatan mereka."
+      },
+      {
+        "id": "p66",
+        "text": "<br>"
+      },
+      {
+        "id": "p67",
+        "text": "Fahri: \"Akhirnya kita bertemu lagi, Baydar!\""
+      },
+      {
+        "id": "p68",
+        "text": "<br>"
+      },
+      {
+        "id": "p69",
+        "text": "Star: \"Bersiaplah untuk bertarung!\""
+      },
+      {
+        "id": "p70",
+        "text": "<br>"
+      },
+      {
+        "id": "p71",
+        "text": "Baydar berusaha melindungi pengunjung sambil melawan Fahri dan Star. Alfriza muncul membantu Baydar, menggunakan teknik Tinju Pembunuh Dewa-nya untuk melawan Fahri."
+      },
+      {
+        "id": "p72",
+        "text": "<br>"
+      },
+      {
+        "id": "p73",
+        "text": "Alfriza: \"Baydar, fokus pada Star! Aku urus yang satu ini.\""
+      },
+      {
+        "id": "p74",
+        "text": "<br>"
+      },
+      {
+        "id": "p75",
+        "text": "Baydar berusaha melindungi pengunjung sambil melawan Star. Di sisi lain, Alfriza berhadapan dengan Fahri, Raja Gunung Tanjakan, yang memiliki fisik kuat bak monster. Mereka berdua saling memandang dengan tekad kuat, siap untuk bertarung hingga titik darah penghabisan."
+      },
+      {
+        "id": "p76",
+        "text": "<br>"
+      },
+      {
+        "id": "p77",
+        "text": "Fahri: \"Kamu pikir bisa mengalahkanku, Alfriza? Aku adalah tanjakan yang tak pernah jatuh!\""
+      },
+      {
+        "id": "p78",
+        "text": "<br>"
+      },
+      {
+        "id": "p79",
+        "text": "Alfriza: \"Aku tak peduli seberapa kuat kamu. Aku akan melindungi teman-temanku dan menghentikan rencana jahatmu!\""
+      },
+      {
+        "id": "p80",
+        "text": "<br>"
+      },
+      {
+        "id": "p81",
+        "text": "Pertarungan dimulai dengan cepat. Fahri melancarkan pukulan pertama dengan kekuatan luar biasa, menciptakan gelombang kejut yang mengguncang area sekitarnya. Alfriza menghindari serangan itu dan melayangkan Tinju Pembunuh Dewa ke arah Fahri. Serangan itu menghantam keras, namun Fahri hanya terdorong beberapa langkah ke belakang."
+      },
+      {
+        "id": "p82",
+        "text": "Mereka saling bertukar pukulan dengan kekuatan dan kecepatan luar biasa. Setiap serangan menciptakan ledakan dan gelombang kejut yang menghancurkan sekitarnya. Fahri menggeram marah, melompat ke udara dan menghantamkan tinjunya dengan kekuatan besar. Alfriza menghindar dan melompat ke atas Fahri, melayangkan pukulan berputar yang menghantam kepala Fahri dan membuatnya terjatuh."
+      },
+      {
+        "id": "p83",
+        "text": "Fahri bangkit kembali, darah mengalir dari luka di kepalanya. Ia melompat ke arah Alfriza dan melancarkan pukulan yang menghantam dada Alfriza, membuatnya terjatuh."
+      },
+      {
+        "id": "p84",
+        "text": "<br>"
+      },
+      {
+        "id": "p85",
+        "text": "Namun, Alfriza bangkit kembali dengan cepat, tersenyum dengan percaya diri."
+      },
+      {
+        "id": "p86",
+        "text": "Alfriza:\"Kamu harus lebih dari itu untuk mengalahkanku.\""
+      },
+      {
+        "id": "p87",
+        "text": "Pertarungan berlangsung sengit. Alfriza melancarkan serangan terakhir dengan teknik Seribu Tinju Kahima Emas  yang menghancurkan pertahanan Fahri. Fahri terdorong ke belakang dan terjatuh dengan keras, tidak bisa bangkit lagi."
+      },
+      {
+        "id": "p88",
+        "text": "<br>"
+      },
+      {
+        "id": "p89",
+        "text": "Alfriza: \"Kamu adalah lawan yang kuat, Fahri. Tapi aku adalah yang terkuat.”"
+      },
+      {
+        "id": "p90",
+        "text": "<br>"
+      },
+      {
+        "id": "p91",
+        "text": "Sementara itu Baydar menggunakan kekuatan baru yang ia dapatkan dari Rafi untuk melawan Star. Mereka bertarung sengit di tengah festival yang semakin kacau."
+      },
+      {
+        "id": "p92",
+        "text": "<br>"
+      },
+      {
+        "id": "p93",
+        "text": "Baydar: \"Star, kali ini aku tidak akan membiarkanmu mengacau disini!\""
+      },
+      {
+        "id": "p94",
+        "text": "<br>"
+      },
+      {
+        "id": "p95",
+        "text": "Dengan kekuatan Loli King dan serangkaian serangan musik yang mematikan, Baydar berhasil mengalahkan Star, sementara Alfriza berhasil melumpuhkan Fahri."
+      },
+      {
+        "id": "p96",
+        "text": "<br>"
+      },
+      {
+        "id": "p97",
+        "text": "Setelah pertarungan, Baydar mendekati Star yang tergeletak di tanah. Namun, saat ia menyentuhnya, tubuh Star berubah menjadi bayangan dan menghilang."
+      },
+      {
+        "id": "p98",
+        "text": "<br>"
+      },
+      {
+        "id": "p99",
+        "text": "Baydar: \"Apa ini? Tiruan?\""
+      },
+      {
+        "id": "p100",
+        "text": "<br>"
+      },
+      {
+        "id": "p101",
+        "text": "Alfriza, yang masih terengah-engah, mendekati Baydar."
+      },
+      {
+        "id": "p102",
+        "text": "<br>"
+      },
+      {
+        "id": "p103",
+        "text": "Alfriza: \"Ada yang aneh. Mereka bukan hanya datang untukmu, Baydar. Aku mendengar mereka berbicara tentang mencari seseorang... Darrel.\""
+      },
+      {
+        "id": "p104",
+        "text": "<br>"
+      },
+      {
+        "id": "p105",
+        "text": "Baydar: \"Darrel? Mantan kahima sebelum kamu?\""
+      },
+      {
+        "id": "p106",
+        "text": "<br>"
+      },
+      {
+        "id": "p107",
+        "text": "Alfriza: \"Iya,  aku tidak tahu apa tujuan mereka tetapi yg kudengar darrel memang bukan orang biasa, dia bisa dibilang Spesial"
+      },
+      {
+        "id": "p108",
+        "text": "<br>"
+      },
+      {
+        "id": "p109",
+        "text": "Di tempat lain di kampus, Darrel sedang sibuk mengurus TA nya di perpustakaan. Tanpa ia sadari, Star yang asli mengintainya dari kejauhan."
+      },
+      {
+        "id": "p110",
+        "text": "<br>"
+      },
+      {
+        "id": "p111",
+        "text": "Star: \"Akhirnya, aku menemukannya. Kunci untuk membangkitkan Falah.\""
+      },
+      {
+        "id": "p112",
+        "text": "<br>"
+      },
+      {
+        "id": "p113",
+        "text": "Darrel berasal dari keluarga spesial yang dipercaya untuk menjaga kunci yang menyegel Falah sang dewa kekacauan turun temurun selama ribuan tahun .Tujuan mereka datang ke festival ini adalah ingin menculiknya untuk membangkitkan sang dewa kekacauan.”"
+      },
+      {
+        "id": "p114",
+        "text": "<br>"
+      },
+      {
+        "id": "p115",
+        "text": "Star menggunakan kekuatan kodamnya, Star Platinum, untuk menculik Darrel tanpa menarik perhatian. Ia menghilang bersama Darrel dalam sekejap mata.dan diam diam juga menteleport Fahri yang tergeletak pingsan akibat pertarungan"
+      },
+      {
+        "id": "p116",
+        "text": "<br>"
+      },
+      {
+        "id": "p117",
+        "text": "Setelah pertarungan, festival mulai kembali tenang. Pengunjung yang selamat berterima kasih kepada Baydar dan Alfriza."
+      },
+      {
+        "id": "p118",
+        "text": "<br>"
+      },
+      {
+        "id": "p119",
+        "text": "Baydar: \"Aku harap ini yang terakhir mereka mencoba mengacaukan hidup kita, aku tidak tau apa tujuan mereka.\""
+      },
+      {
+        "id": "p120",
+        "text": "<br>"
+      },
+      {
+        "id": "p121",
+        "text": "Jessica: \"Kamu benar-benar luar biasa, Baydar. Aku senang kamu aman.\""
+      },
+      {
+        "id": "p122",
+        "text": "<br>"
+      },
+      {
+        "id": "p123",
+        "text": "Anisa: \"Terima kasih sudah melindungi kita semua. Kamu memang pahlawan kami.\""
+      },
+      {
+        "id": "p124",
+        "text": "<br>"
+      },
+      {
+        "id": "p125",
+        "text": "Mereka tersenyum, dan Baydar merasa dikelilingi oleh teman-teman yang peduli. Festival terus berlanjut dengan semangat baru, dan Baydar menyadari bahwa ia tidak hanya memiliki kekuatan fisik, tetapi juga dukungan dari orang-orang yang ia sayangi."
+      },
+      {
+        "id": "p126",
+        "text": "<br>"
+      },
+      {
+        "id": "p127",
+        "text": "Hari itu, meskipun penuh dengan kejutan dan bahaya, berakhir dengan kehangatan dan janji-janji baru. Baydar berjalan bersama Jessica dan Anisa, merasa lebih dekat dengan mereka. Ia tahu bahwa perjalanan hidupnya masih panjang dan penuh tantangan, tetapi dengan teman-teman di sisinya, ia merasa siap menghadapi apa pun yang datang. Namun, bayang-bayang ancaman dari Koten dan rencana besar untuk membangkitkan Falah terus menghantui pikirannya. Kisah Baydar semakin rumit dengan berbagai plot twist yang tak terduga, dan ia harus siap menghadapi tantangan-tantangan baru yang akan datang."
+      },
+      {
+        "id": "p128",
+        "text": "<br>"
+      }
+    ],
+    "createdAt": "2026-07-23T14:07:51.198Z",
+    "updatedAt": "2026-07-23T14:07:51.240Z"
   }
 }

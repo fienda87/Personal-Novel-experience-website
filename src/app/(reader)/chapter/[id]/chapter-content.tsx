@@ -1,9 +1,9 @@
 'use client'
 
-import { useState, useEffect, useMemo } from 'react'
+import { useState, useEffect, useMemo, useRef } from 'react'
 import { useParams } from 'next/navigation'
 import Link from 'next/link'
-import { motion } from 'framer-motion'
+import { motion, useScroll, useTransform } from 'framer-motion'
 import { ArrowLeft, ArrowRight, SpeakerHigh, Bookmark, ShareNetwork } from '@phosphor-icons/react'
 import { InteractiveText } from '@/components/reader/interactive-text'
 import { AudioTrigger } from '@/components/reader/audio-trigger'
@@ -21,6 +21,11 @@ export function ChapterContent() {
   const [fontFamily, setFontFamily] = useState<'serif' | 'sans'>('serif')
   const [distractionFree, setDistractionFree] = useState(false)
   const [scrollProgress, setScrollProgress] = useState(0)
+  const bannerRef = useRef<HTMLDivElement>(null)
+  const { scrollY } = useScroll()
+  const bannerScale = useTransform(scrollY, [0, 600], [1.05, 1.15])
+  const bannerOpacity = useTransform(scrollY, [0, 500], [1, 0.4])
+  const gradientOpacity = useTransform(scrollY, [0, 500], [1, 0.6])
 
   useEffect(() => {
     if (!params.id) return
@@ -78,10 +83,11 @@ export function ChapterContent() {
           transition={{ duration: 0.7, ease: [0.32, 0.72, 0, 1] }}
           className="bg-[#0f172a]/40 backdrop-blur-xl border border-white/10 rounded-3xl shadow-2xl shadow-black/30 overflow-hidden"
         >
-          <div className="relative w-full overflow-hidden">
-            <img
+          <div ref={bannerRef} className="relative w-full overflow-hidden will-change-transform">
+            <motion.img
               src={bannerUrl}
               alt={`${chapter.title} hero banner`}
+              style={{ scale: bannerScale, opacity: bannerOpacity }}
               className="w-full h-56 md:h-72 object-cover block rounded-t-3xl"
               onError={(event) => {
                 const image = event.currentTarget
@@ -89,7 +95,10 @@ export function ChapterContent() {
                 image.src = DEFAULT_CHAPTER_BANNER_URL
               }}
             />
-            <div className="absolute inset-0 bg-gradient-to-b from-transparent to-[#0f172a]/60" />
+            <motion.div
+              className="absolute inset-0 bg-gradient-to-b from-transparent to-[#0f172a]/60"
+              style={{ opacity: gradientOpacity }}
+            />
           </div>
 
           <div className="p-6 md:p-10">

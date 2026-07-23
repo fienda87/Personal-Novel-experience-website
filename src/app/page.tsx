@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
+import { motion, useScroll, useTransform } from 'framer-motion'
 import { ArrowRight } from '@phosphor-icons/react'
 
 interface Chapter {
@@ -18,10 +19,20 @@ interface CharacterData {
   title: string
 }
 
+const revealProps = {
+  initial: { opacity: 0, y: 40, scale: 0.98 },
+  whileInView: { opacity: 1, y: 0, scale: 1 },
+  viewport: { once: true, margin: '-50px' as const },
+  transition: { duration: 0.6, ease: 'easeOut' as const },
+}
+
 export default function Home() {
   const [chapters, setChapters] = useState<Chapter[]>([])
   const [characters, setCharacters] = useState<CharacterData[]>([])
   const [loaded, setLoaded] = useState(false)
+  const { scrollY } = useScroll()
+  const glowY = useTransform(scrollY, [0, 1000], [0, 200])
+  const glowOpacity = useTransform(scrollY, [0, 800], [0.15, 0.05])
 
   useEffect(() => {
     Promise.all([
@@ -43,6 +54,15 @@ export default function Home() {
 
   return (
     <main className="relative min-h-screen overflow-x-hidden max-w-full">
+      {/* Parallax floating glow */}
+      <motion.div
+        className="pointer-events-none fixed inset-0 z-0 will-change-transform"
+        style={{ y: glowY, opacity: glowOpacity }}
+      >
+        <div className="absolute top-[-10%] left-[-5%] w-[50vw] h-[50vw] rounded-full bg-moonstone-blue/10 blur-[120px]" />
+        <div className="absolute bottom-[10%] right-[-5%] w-[40vw] h-[40vw] rounded-full bg-ethereal-teal/8 blur-[100px]" />
+      </motion.div>
+
       <div className="relative z-10">
         <section className="relative w-full min-h-[85vh] grid grid-cols-1 md:grid-cols-12 border-b border-white/15 pt-24 md:pt-28 pb-12 px-6 md:px-12 items-end bg-transparent overflow-x-clip">
           <div className="md:col-span-8 flex flex-col justify-end pb-8 md:pb-16 relative z-10">
@@ -136,7 +156,7 @@ export default function Home() {
         {loaded && (
           <>
             {/* FLAGSHIP NOVEL SHOWCASE */}
-            <section className="w-full border-t border-white/15 bg-transparent">
+            <motion.section {...revealProps} className="w-full border-t border-white/15 bg-transparent">
               <div className="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-12">
                 <div className="md:col-span-5 md:border-r border-white/10 overflow-hidden">
                   <img
@@ -166,10 +186,10 @@ export default function Home() {
                   </Link>
                 </div>
               </div>
-            </section>
+            </motion.section>
 
             {/* CATALOGUE / OTHER WORKS */}
-            <section className="w-full border-t border-white/15 bg-transparent">
+            <motion.section {...revealProps} className="w-full border-t border-white/15 bg-transparent">
               <div className="max-w-[1200px] mx-auto px-4 sm:px-6 md:px-12 py-10 md:py-12">
                 <span className="text-[10px] md:text-xs font-mono uppercase tracking-[0.2em] text-slate-400 block mb-6 md:mb-8">
                   Katalog Karya A206 Studio
@@ -189,10 +209,10 @@ export default function Home() {
                   ))}
                 </div>
               </div>
-            </section>
+            </motion.section>
 
             {/* STATS BAR */}
-            <section className="w-full border-t border-white/15 bg-transparent">
+            <motion.section {...revealProps} className="w-full border-t border-white/15 bg-transparent">
               <div className="max-w-[1200px] mx-auto px-4 sm:px-6 md:px-12">
                   <div className="flex justify-between items-center py-5 md:py-6 border-b border-white/15 text-center font-mono">
                   <span className="text-[10px] md:text-xs text-slate-300 tracking-wide">
@@ -212,10 +232,10 @@ export default function Home() {
                   </span>
                 </div>
               </div>
-            </section>
+            </motion.section>
 
             {/* LATEST CHAPTERS FEED */}
-            <section className="w-full border-t border-white/15 bg-transparent">
+            <motion.section {...revealProps} className="w-full border-t border-white/15 bg-transparent">
               <div className="max-w-[1200px] mx-auto px-4 sm:px-6 md:px-12 py-12 md:py-16">
                 <div className="flex items-center justify-between mb-8 md:mb-10">
                   <span className="text-[10px] md:text-xs font-mono uppercase tracking-[0.2em] text-slate-400">
@@ -231,7 +251,13 @@ export default function Home() {
                     const readTime = Math.max(1, Math.ceil(wordCount / 200))
                     return (
                       <Link key={ch.id} href={`/chapter/${ch.id}`}>
-                        <div className="group flex flex-col md:grid md:grid-cols-12 gap-1 md:gap-4 items-start md:items-center py-4 md:py-5">
+                        <motion.div
+                          initial={{ opacity: 0, x: -20 }}
+                          whileInView={{ opacity: 1, x: 0 }}
+                          viewport={{ once: true, margin: '-30px' }}
+                          transition={{ duration: 0.5, delay: i * 0.05, ease: 'easeOut' }}
+                          className="group flex flex-col md:grid md:grid-cols-12 gap-1 md:gap-4 items-start md:items-center py-4 md:py-5"
+                        >
                           <div className="flex items-center gap-3 md:gap-4 md:col-span-6 w-full">
                             <span className="text-xs font-mono text-slate-500 w-6 md:w-8 shrink-0">
                               {String(ch.number).padStart(2, '0')}
@@ -253,24 +279,24 @@ export default function Home() {
                             <span>{readTime} mnt</span>
                             <span className="text-slate-500 group-hover:text-slate-300 transition-colors ml-auto md:ml-0">→</span>
                           </div>
-                        </div>
+                        </motion.div>
                       </Link>
                     )
                   })}
                 </div>
               </div>
-            </section>
+            </motion.section>
 
           </>
         )}
 
         {/* FOOTER */}
-        <footer className="border-t border-white/15 py-6 md:py-8 px-4 sm:px-6 md:px-12 bg-transparent">
+        <motion.footer {...revealProps} className="border-t border-white/15 py-6 md:py-8 px-4 sm:px-6 md:px-12 bg-transparent">
           <div className="max-w-[1200px] mx-auto flex flex-col md:flex-row justify-between text-[10px] md:text-xs font-mono text-slate-400 gap-2 md:gap-0">
             <span>A206 STUDIO © 2026 // CREATED BY FI THE CREATOR</span>
             <span className="hidden md:block">GOD OF COLLEGE OFFICIAL WIKI</span>
           </div>
-        </footer>
+        </motion.footer>
       </div>
     </main>
   )
