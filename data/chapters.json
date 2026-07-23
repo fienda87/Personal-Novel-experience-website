@@ -1,0 +1,171 @@
+{
+  "ch-1": {
+    "id": "ch-1",
+    "title": "Awal Mula",
+    "number": 1,
+    "bannerUrl": "",
+    "content": [
+      {
+        "id": "p1",
+        "text": "Baydar membuka matanya dan mendapati dirinya terbaring di tengah sebuah kampus yang asing. Langit di atasnya berwarna ungu keemasan, dan gedung-gedung di sekitarnya tampak seperti perpaduan antara arsitektur modern dan teknologi masa depan. \"Di mana aku?\" gumamnya, mencoba mengingat apa yang baru saja terjadi."
+      },
+      {
+        "id": "p2",
+        "text": "Sejenak yang lalu, ia masih berada di kamar kosnya yang sempit. Sebuah portal aneh muncul tiba-tiba di dinding kamarnya, dan sebelum ia bisa berteriak, tubuhnya tersedot ke dalam pusaran cahaya. Kini, ia berada di tempat yang sama sekali tidak dikenal."
+      },
+      {
+        "id": "p3",
+        "text": "Seorang mahasiswa lewat dan menatapnya heran. \"Lu anak baru? Kelas orientasi udah mulai dari tadi, tuh. Cepetan!\" Baydar, yang masih bingung, hanya bisa mengangguk dan mengikuti arahan itu. Tanpa sadar, petualangan besarnya baru saja dimulai."
+      }
+    ],
+    "createdAt": "2026-07-23T00:00:00.000Z",
+    "updatedAt": "2026-07-23T00:00:00.000Z"
+  },
+  "ch-2": {
+    "id": "ch-2",
+    "title": "Hidup & Mati",
+    "number": 2,
+    "bannerUrl": "",
+    "content": [
+      {
+        "id": "p1",
+        "text": "<span class=\"mention\" data-type=\"mention\" data-id=\"char-1\" data-label=\"Baydar\" data-mention-suggestion-char=\"@\" data-entity-type=\"character\">@Baydar</span> Baydar segera menyadari bahwa ITK bukanlah kampus biasa. Di sini, hidup dan mati adalah taruhan sehari-hari. Mahasiswa tidak hanya belajar teori, tetapi juga bertarung melawan monster yang muncul dari celah dimensi di sekitar kampus.",
+        "mentions": [
+          {
+            "entityId": "char-1",
+            "entityName": "Baydar",
+            "entityType": "character",
+            "startIndex": 0,
+            "endIndex": 7
+          }
+        ]
+      },
+      {
+        "id": "p2",
+        "text": "\"Selamat datang di ITK, anak baru,\" sapa seorang mahasiswi bernama Anisa. \"Di sini, ilmu pengetahuan dan kekuatan berjalan beriringan. Jika kau tidak bisa bertahan, kau akan mati.\" Baydar menelan ludah. Ia tidak punya pengalaman bertarung sama sekali."
+      },
+      {
+        "id": "p3",
+        "text": "Namun, saat monster pertama muncul dan menyerangnya, sesuatu terjadi. Tubuh Baydar bergerak dengan sendirinya, seolah-olah ototnya telah terlatih selama bertahun-tahun. Sebuah kekuatan aneh mengalir di nadinya — dan untuk pertama kalinya, ia merasakan bahwa ia berbeda."
+      }
+    ],
+    "createdAt": "2026-07-23T00:00:00.000Z",
+    "updatedAt": "2026-07-23T12:53:12.305Z"
+  },
+  "ch-3": {
+    "id": "ch-3",
+    "title": "Kebangkitan Skill SSS+",
+    "number": 3,
+    "bannerUrl": "",
+    "content": [
+      {
+        "id": "p1",
+        "text": "Setelah pertarungan pertamanya, Baydar jatuh pingsan. Saat sadar, ia mendapati dirinya di ruang medis kampus. Di hadapannya, sebuah layar holografik menampilkan sesuatu yang membuat matanya melebar: status skill-nya."
+      },
+      {
+        "id": "p2",
+        "text": "\"SSS+ Skill: Loli Hunter — Status: Active,\" bunyi tulisan di layar itu. Anisa yang berada di sampingnya terkejut. \"Skill tingkat SSS+? Itu legenda! Bahkan para pengajar di sini tidak ada yang memilikinya!\" serunya tidak percaya."
+      },
+      {
+        "id": "p3",
+        "text": "Baydar sendiri tidak mengerti apa artinya semua ini. Yang ia tahu, tubuhnya terasa berbeda. Lebih kuat, lebih cepat, lebih gesit. Sebuah keyakinan mulai tumbuh di hatinya: mungkin ia tidak sengaja terlempar ke sini. Mungkin takdir telah membawanya ke ITK untuk suatu tujuan."
+      }
+    ],
+    "createdAt": "2026-07-23T00:00:00.000Z",
+    "updatedAt": "2026-07-23T00:00:00.000Z"
+  },
+  "ch-4": {
+    "id": "ch-4",
+    "title": "Langkah Pertama di ITK",
+    "number": 4,
+    "bannerUrl": "",
+    "content": [
+      {
+        "id": "p1",
+        "text": "Hari-hari pertama Baydar di ITK diisi dengan adaptasi. Ia belajar tentang sistem skill, class, dan hierarchy kekuatan yang ada di dunia ini. Setiap mahasiswa memiliki skill unik, dan peringkat mereka ditentukan oleh seberapa kuat skill tersebut."
+      },
+      {
+        "id": "p2",
+        "text": "Rifki, sahabat baru Baydar, membantunya berkeliling kampus. \"Lu beruntung punya skill SSS+, bro. Tapi ingat, kekuatan aja nggak cukup. Lu harus latihan keras dan paham cara menggunakannya dengan benar,\" kata Rifki bijak."
+      },
+      {
+        "id": "p3",
+        "text": "Baydar mengangguk. Ia tahu perjalanannya masih panjang. Organisasi PAUD, entitas misterius yang disebut-sebut sebagai ancaman terbesar di dunia ini, belum menunjukkan taringnya. Tapi Baydar siap. Ia tidak akan lagi menjadi pemuda biasa yang tak berdaya."
+      }
+    ],
+    "createdAt": "2026-07-23T00:00:00.000Z",
+    "updatedAt": "2026-07-23T00:00:00.000Z"
+  },
+  "ch-5": {
+    "id": "ch-5",
+    "title": "Ancaman Organisasi PAUD",
+    "number": 5,
+    "bannerUrl": "",
+    "content": [
+      {
+        "id": "p1",
+        "text": "Organisasi PAUD — nama yang terdengar lucu namun menakutkan bagi mereka yang tahu. Di balik nama kekanak-kanakan itu, tersembunyi organisasi kriminal paling berbahaya di dunia paralel. Mereka mengincar skill-skill langka, dan Baydar dengan SSS+ Skill-nya telah menjadi target utama."
+      },
+      {
+        "id": "p2",
+        "text": "Suatu malam, Baydar disergap oleh agen PAUD di lorong kampus. Pertarungan sengit terjadi. Baydar menggunakan skill barunya, Shadow Step, untuk menghindari serangan dan Hunter's Fury untuk melawan. Ini adalah pertama kalinya ia bertarung melawan manusia, bukan monster."
+      },
+      {
+        "id": "p3",
+        "text": "Ia berhasil mengalahkan agen-agen itu, tapi ia tahu ini baru permulaan. Organisasi PAUD tidak akan tinggal diam. Mereka akan mengirim lebih banyak agen, dan suatu hari, pemimpin mereka sendiri akan datang. Baydar harus bersiap."
+      }
+    ],
+    "createdAt": "2026-07-23T00:00:00.000Z",
+    "updatedAt": "2026-07-23T00:00:00.000Z"
+  },
+  "ch-6": {
+    "id": "ch-6",
+    "title": "Balas Dendam Primordial Demon King Koten",
+    "number": 6,
+    "bannerUrl": "",
+    "content": [
+      {
+        "id": "p1",
+        "text": "Setelah beberapa hari yang damai berlalu, Baydar merasa semakin nyaman dengan kehadiran Anisa. Mereka menghabiskan waktu bersama di kampus, berlatih di ruang latihan, dan saling membantu dalam tugas-tugas kuliah. Meski begitu, Baydar selalu waspada, menyadari bahwa kemenangan nya setelah mengalahkan Markson pasti akan menarik perhatian lebih banyak musuh."
+      },
+      {
+        "id": "p2",
+        "text": "Suatu malam, saat Baydar sedang dalam perjalanan kembali ke kosnya, ia merasakan hawa yang sangat dingin dan berat. Instingnya segera menyadarkan bahwa ada bahaya yang mendekat. Baydar segera mengaktifkan salah satu kemampuannya, Predator Instinct, untuk mencari sumber ancaman."
+      },
+      {
+        "id": "p3",
+        "text": "Tiba-tiba, sebuah portal gelap terbuka di hadapannya, dan dari dalam portal itu keluar sosok yang sangat mengintimidasi. Sosok itu adalah Raja Iblis Primordial, Koten, yang dikenal sebagai salah satu iblis terkuat di dunia PAUD. Koten memancarkan aura gelap yang sangat kuat, membuat udara sekitar mereka bergetar."
+      },
+      {
+        "id": "p4",
+        "text": "\"Jadi, kau yang telah mengalahkan Markson,\" kata Koten dengan suara yang dalam dan penuh kebencian. \"Dia adalah salah satu prajuritku yang paling setia. Aku akan menghancurkanmu untuk membalas dendamnya.\""
+      },
+      {
+        "id": "p5",
+        "text": "Baydar menatap Koten dengan tenang. \"Aku tidak peduli siapa kau. Jika kau menghalangi jalanku, aku akan mengalahkanmu seperti yang lain,\" jawabnya tegas. Pertarungan pun dimulai — Baydar melawan Raja Iblis Primordial."
+      },
+      {
+        "id": "p6",
+        "text": "Menggunakan kekuatan dari skill SSS+ \"Loli Hunter\", Baydar memfokuskan energinya dan mengaktifkan Battle Trance. Dengan tubuh yang dikuatkan, Baydar meluncur maju dan mengeluarkan serangan terbaiknya, Melodi Etam, yang memanggil petir dari gitar suci miliknya untuk menghantam Koten."
+      },
+      {
+        "id": "p7",
+        "text": "Petir yang kuat menghantam Koten, membuatnya terkejut dan mundur. Namun, Koten hanya tersenyum licik. \"Kau kuat, tapi belum cukup untuk mengalahkanku,\" katanya, lalu mengeluarkan kekuatan penuhnya."
+      },
+      {
+        "id": "p8",
+        "text": "Pertarungan berlangsung sengit. Baydar menggunakan seluruh kemampuannya — Iron Skin, Shadow Fang, dan Predator Instinct — namun Koten tetap terlalu kuat. Pukulan terakhir Koten membuat Baydar terhempas ke tanah, tubuhnya terasa remuk."
+      },
+      {
+        "id": "p9",
+        "text": "Tepat sebelum serangan terakhir Koten mengenai Baydar, sebuah portal tiba-tiba muncul dan menarik Baydar masuk, menyelamatkannya dari kematian. Baydar terjatuh di tempat yang asing dengan tubuh terluka parah. Sebuah notifikasi muncul: \"Anda telah dikalahkan oleh Primordial Demon King Koten. Pertahankan tekad Anda dan latihlah diri Anda lebih keras.\""
+      },
+      {
+        "id": "p10",
+        "text": "Baydar tergeletak di tanah, merasakan sakit yang luar biasa. Namun, di dalam hatinya, api tekad berkobar semakin kuat. \"Koten, aku bersumpah akan mengalahkanmu lain kali. Aku akan menjadi lebih kuat,\" ucapnya lemah namun penuh tekad. Perjalanan Baydar untuk menjadi dewa PAUD dan membalas dendam kepada Koten baru saja dimulai."
+      }
+    ],
+    "createdAt": "2026-07-22T17:41:11.133Z",
+    "updatedAt": "2026-07-23T19:00:00.000Z"
+  }
+}

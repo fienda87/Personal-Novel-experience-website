@@ -1,0 +1,230 @@
+{
+  "nodes": [
+    {
+      "id": "char-1",
+      "type": "character",
+      "position": {
+        "x": 60,
+        "y": 60
+      },
+      "data": {
+        "label": "Baydar",
+        "type": "character",
+        "subtitle": "Protagonis Utama",
+        "imageUrl": "",
+        "snippet": "Pemuda yang tersedot ke dunia paralel dan menemukan SSS+ Skill.",
+        "tags": [
+          "Protagonis",
+          "SSS+ Skill",
+          "ITK"
+        ],
+        "strength": 15,
+        "agility": 14,
+        "intelligence": 13,
+        "charisma": 12,
+        "wisdom": 11,
+        "vitality": 16
+      },
+      "measured": {
+        "width": 256,
+        "height": 102
+      }
+    },
+    {
+      "id": "char-2",
+      "type": "character",
+      "position": {
+        "x": 401.33331298828125,
+        "y": -4
+      },
+      "data": {
+        "label": "Anisa",
+        "type": "character",
+        "subtitle": "Rekan Satu Tim",
+        "imageUrl": "",
+        "snippet": "Rekan Baydar di ITK yang cerdas dan tangguh.",
+        "tags": [
+          "Rekan",
+          "Cerdas",
+          "ITK"
+        ],
+        "strength": 9,
+        "agility": 12,
+        "intelligence": 18,
+        "charisma": 15,
+        "wisdom": 16,
+        "vitality": 10
+      },
+      "measured": {
+        "width": 256,
+        "height": 102
+      },
+      "selected": true,
+      "dragging": false
+    },
+    {
+      "id": "char-3",
+      "type": "character",
+      "position": {
+        "x": 60,
+        "y": 260
+      },
+      "data": {
+        "label": "Rifki",
+        "type": "character",
+        "subtitle": "Sahabat Seperjuangan",
+        "imageUrl": "",
+        "snippet": "Sahabat Baydar di ITK yang setia.",
+        "tags": [
+          "Sahabat",
+          "Setia",
+          "ITK"
+        ],
+        "strength": 12,
+        "agility": 10,
+        "intelligence": 11,
+        "charisma": 14,
+        "wisdom": 9,
+        "vitality": 13
+      },
+      "measured": {
+        "width": 256,
+        "height": 102
+      }
+    },
+    {
+      "id": "char-4",
+      "type": "character",
+      "position": {
+        "x": 380,
+        "y": 260
+      },
+      "data": {
+        "label": "Alfriza",
+        "type": "character",
+        "subtitle": "Mentor Misterius",
+        "imageUrl": "",
+        "snippet": "Senior ITK yang menjadi mentor Baydar.",
+        "tags": [
+          "Mentor",
+          "Senior",
+          "Misterius",
+          "ITK"
+        ],
+        "strength": 16,
+        "agility": 15,
+        "intelligence": 17,
+        "charisma": 13,
+        "wisdom": 18,
+        "vitality": 14
+      },
+      "measured": {
+        "width": 256,
+        "height": 102
+      }
+    },
+    {
+      "id": "loc-1",
+      "type": "location",
+      "position": {
+        "x": 60,
+        "y": 460
+      },
+      "data": {
+        "label": "Institut Teknologi Kampus (ITK)",
+        "type": "location",
+        "subtitle": "Kampus Dunia Paralel",
+        "imageUrl": "",
+        "snippet": "Kampus tempat Baydar menjalani kehidupan barunya.",
+        "tags": [
+          "Kampus",
+          "Portal",
+          "Dunia Paralel"
+        ],
+        "faction": "Independen",
+        "city": "ITK"
+      },
+      "measured": {
+        "width": 256,
+        "height": 102
+      }
+    },
+    {
+      "id": "item-1",
+      "type": "item",
+      "position": {
+        "x": 380,
+        "y": 460
+      },
+      "data": {
+        "label": "SSS+ Skill: Loli Hunter",
+        "type": "item",
+        "subtitle": "Skill Legendaris",
+        "imageUrl": "",
+        "snippet": "Skill tingkat SSS+ yang dimiliki Baydar.",
+        "tags": [
+          "Skill",
+          "SSS+",
+          "Legendaris"
+        ],
+        "rarity": "SSS+"
+      },
+      "measured": {
+        "width": 256,
+        "height": 102
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "e-baydar-anisa",
+      "source": "char-1",
+      "target": "char-2",
+      "label": "Bekerja Sama",
+      "style": {
+        "stroke": "#94bbe9",
+        "strokeWidth": 2
+      }
+    },
+    {
+      "id": "e-baydar-rifki",
+      "source": "char-1",
+      "target": "char-3",
+      "label": "Sahabat",
+      "style": {
+        "stroke": "#94bbe9",
+        "strokeWidth": 2
+      }
+    },
+    {
+      "id": "e-baydar-alfriza",
+      "source": "char-1",
+      "target": "char-4",
+      "label": "Bimbingan",
+      "style": {
+        "stroke": "#cbd5e1",
+        "strokeWidth": 2
+      }
+    },
+    {
+      "id": "e-baydar-itk",
+      "source": "char-1",
+      "target": "loc-1",
+      "label": "Belajar di",
+      "style": {
+        "stroke": "#14b8a6",
+        "strokeWidth": 2
+      }
+    },
+    {
+      "id": "e-baydar-skill",
+      "source": "char-1",
+      "target": "item-1",
+      "label": "Memiliki",
+      "style": {
+        "stroke": "#cbd5e1",
+        "strokeWidth": 2
+      }
+    }
+  ]
+}

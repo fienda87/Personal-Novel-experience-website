@@ -1,0 +1,67 @@
+{
+  "char-1": {
+    "id": "char-1",
+    "name": "Baydar",
+    "title": "Protagonis Utama",
+    "role": "Mahasiswa ITK",
+    "faction": "Independen",
+    "city": "ITK",
+    "imageUrl": "",
+    "description": "Seorang pemuda yang tersedot ke dunia paralel melalui portal misterius. Kini menjadi mahasiswa ITK dan menemukan SSS+ Skill yang belum pernah dia ketahui. Bertekad melawan Organisasi PAUD dan mengungkap identitas sejatinya.",
+    "lore": "Baydar adalah seorang pemuda biasa yang kehidupannya berubah total setelah melewati portal misterius. Di dunia baru ini, ia menemukan kekuatan luar biasa dalam dirinya dan harus beradaptasi dengan kehidupan kampus ITK sambil melawan ancaman organisasi rahasia PAUD.",
+    "stats": { "strength": 15, "agility": 14, "intelligence": 13, "charisma": 12, "wisdom": 11, "vitality": 16 },
+    "tags": ["Protagonis", "SSS+ Skill", "Loli Hunter", "ITK"],
+    "relationships": [
+      { "type": "ally", "targetId": "char-2", "targetName": "Anisa" },
+      { "type": "ally", "targetId": "char-3", "targetName": "Rifki" }
+    ]
+  },
+  "char-2": {
+    "id": "char-2",
+    "name": "Anisa",
+    "title": "Rekan Satu Tim",
+    "role": "Mahasiswi ITK",
+    "faction": "Independen",
+    "city": "ITK",
+    "imageUrl": "",
+    "description": "Rekan Baydar di ITK yang cerdas dan tangguh. Anisa memiliki pengetahuan luas tentang dunia paralel dan membantu Baydar memahami kekuatannya.",
+    "lore": "Anisa adalah mahasiswi berprestasi di ITK yang secara tidak sengaja terlibat dalam petualangan Baydar. Dengan kecerdasannya, ia menjadi mitra berharga dalam menghadapi Organisasi PAUD.",
+    "stats": { "strength": 9, "agility": 12, "intelligence": 18, "charisma": 15, "wisdom": 16, "vitality": 10 },
+    "tags": ["Rekan", "Cerdas", "ITK", "Pengetahuan Dunia Paralel"],
+    "relationships": [
+      { "type": "ally", "targetId": "char-1", "targetName": "Baydar" }
+    ]
+  },
+  "char-3": {
+    "id": "char-3",
+    "name": "Rifki",
+    "title": "Sahabat Seperjuangan",
+    "role": "Mahasiswa ITK",
+    "faction": "Independen",
+    "city": "ITK",
+    "imageUrl": "",
+    "description": "Sahabat Baydar di ITK. Sosok yang setia dan selalu siap membantu dalam situasi sulit.",
+    "lore": "Rifki adalah mahasiswa ITK yang menjadi sahabat pertama Baydar di dunia baru. Meski tidak memiliki kekuatan khusus, keberanian dan loyalitasnya membuatnya menjadi teman yang tak ternilai.",
+    "stats": { "strength": 12, "agility": 10, "intelligence": 11, "charisma": 14, "wisdom": 9, "vitality": 13 },
+    "tags": ["Sahabat", "Setia", "ITK"],
+    "relationships": [
+      { "type": "ally", "targetId": "char-1", "targetName": "Baydar" }
+    ]
+  },
+  "char-4": {
+    "id": "char-4",
+    "name": "Alfriza",
+    "title": "Mentor Misterius",
+    "role": "Senior ITK",
+    "faction": "Independen",
+    "city": "ITK",
+    "imageUrl": "",
+    "description": "Seorang senior di ITK yang memiliki pengetahuan mendalam tentang skill dan dunia paralel. Alfriza menjadi mentor bagi Baydar dalam menguasai SSS+ Skill.",
+    "lore": "Alfriza adalah mahasiswa senior yang sudah lama berada di ITK dan menguasai berbagai skill tingkat tinggi. Ia muncul di saat-saat kritis untuk membimbing Baydar, meskipun motif sebenarnya masih diselimuti misteri.",
+    "stats": { "strength": 16, "agility": 15, "intelligence": 17, "charisma": 13, "wisdom": 18, "vitality": 14 },
+    "tags": ["Mentor", "Senior", "Misterius", "ITK"],
+    "relationships": [
+      { "type": "ally", "targetId": "char-1", "targetName": "Baydar" }
+    ]
+  }
+}

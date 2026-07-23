@@ -1,0 +1,129 @@
+{
+  "char-1": {
+    "id": "char-1",
+    "name": "Baydar",
+    "type": "character",
+    "imageUrl": "",
+    "snippet": "Pemuda yang tersedot ke dunia paralel dan menemukan SSS+ Skill.",
+    "tags": [
+      "Protagonis",
+      "SSS+ Skill",
+      "ITK"
+    ],
+    "strength": 15,
+    "agility": 14,
+    "intelligence": 13,
+    "charisma": 12,
+    "wisdom": 11,
+    "vitality": 16
+  },
+  "char-2": {
+    "id": "char-2",
+    "name": "Anisa",
+    "type": "character",
+    "imageUrl": "",
+    "snippet": "Rekan Baydar di ITK yang cerdas dan tangguh.",
+    "tags": [
+      "Rekan",
+      "Cerdas",
+      "ITK"
+    ],
+    "strength": 9,
+    "agility": 12,
+    "intelligence": 18,
+    "charisma": 15,
+    "wisdom": 16,
+    "vitality": 10
+  },
+  "char-3": {
+    "id": "char-3",
+    "name": "Rifki",
+    "type": "character",
+    "imageUrl": "",
+    "snippet": "Sahabat Baydar di ITK yang setia.",
+    "tags": [
+      "Sahabat",
+      "Setia",
+      "ITK"
+    ],
+    "strength": 12,
+    "agility": 10,
+    "intelligence": 11,
+    "charisma": 14,
+    "wisdom": 9,
+    "vitality": 13
+  },
+  "char-4": {
+    "id": "char-4",
+    "name": "Alfriza",
+    "type": "character",
+    "imageUrl": "",
+    "snippet": "Senior ITK yang menjadi mentor Baydar.",
+    "tags": [
+      "Mentor",
+      "Senior",
+      "Misterius",
+      "ITK"
+    ],
+    "strength": 16,
+    "agility": 15,
+    "intelligence": 17,
+    "charisma": 13,
+    "wisdom": 18,
+    "vitality": 14
+  },
+  "loc-1": {
+    "id": "loc-1",
+    "name": "Institut Teknologi Kampus (ITK)",
+    "type": "location",
+    "imageUrl": "",
+    "snippet": "Kampus tempat Baydar menjalani kehidupan barunya.",
+    "tags": [
+      "Kampus",
+      "Portal",
+      "Dunia Paralel"
+    ],
+    "faction": "Independen",
+    "city": "ITK"
+  },
+  "loc-2": {
+    "id": "loc-2",
+    "name": "Markas Organisasi PAUD",
+    "type": "location",
+    "imageUrl": "",
+    "snippet": "Benteng rahasia Organisasi PAUD yang tersembunyi di dimensi lain. Tempat di mana rencana penguasaan dunia paralel dirancang.",
+    "tags": [
+      "Markas",
+      "Organisasi PAUD",
+      "Dimensi Lain"
+    ],
+    "faction": "Organisasi PAUD",
+    "city": "Dimensi Paralel"
+  },
+  "item-1": {
+    "id": "item-1",
+    "name": "SSS+ Skill: Loli Hunter",
+    "type": "item",
+    "imageUrl": "",
+    "snippet": "Skill tingkat SSS+ yang dimiliki Baydar.",
+    "tags": [
+      "Skill",
+      "SSS+",
+      "Legendaris"
+    ],
+    "rarity": "SSS+"
+  },
+  "item-2": {
+    "id": "item-2",
+    "name": "Gitar Suci Melodi Etam",
+    "type": "item",
+    "imageUrl": "",
+    "snippet": "Senjata mistis berbentuk gitar yang memanggil petir suci. Salah satu artefak paling kuat yang pernah ada di dunia paralel.",
+    "tags": [
+      "Artefak",
+      "Senjata",
+      "Petir"
+    ],
+    "rarity": "Mythic"
+  }
+}
