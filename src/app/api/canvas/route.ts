@@ -3,7 +3,12 @@ import { supabase } from '@/lib/supabase'
 
 export async function GET() {
   const { data } = await supabase.from('canvas').select('*').single()
-  return NextResponse.json(data ?? { nodes: [], edges: [] })
+  if (!data) return NextResponse.json({ nodes: [], edges: [] })
+  const parsed = data as Record<string, unknown>
+  return NextResponse.json({
+    nodes: typeof parsed.nodes === 'string' ? JSON.parse(parsed.nodes as string) : (parsed.nodes ?? []),
+    edges: typeof parsed.edges === 'string' ? JSON.parse(parsed.edges as string) : (parsed.edges ?? []),
+  })
 }
 
 export async function POST(request: Request) {
